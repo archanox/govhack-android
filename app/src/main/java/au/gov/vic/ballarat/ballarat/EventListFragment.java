@@ -3,23 +3,20 @@ package au.gov.vic.ballarat.ballarat;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.app.ListFragment;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 
 import java.util.ArrayList;
 
-import au.gov.vic.ballarat.ballarat.dummy.DummyContent;
 import au.gov.vic.ballarat.ballarat.pojo.EventItem;
-import au.gov.vic.ballarat.ballarat.pojo.NewsItem;
 
 public class EventListFragment extends ListFragment {
     private static final String ARG_SECTION_NUMBER = "section_number";
@@ -61,7 +58,8 @@ public class EventListFragment extends ListFragment {
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
 
-        Intent intent = new Intent(getActivity(), EventActivity.class);
+        Intent intent = new Intent(getActivity(), EventItemActivity.class);
+        intent.putExtra("item", mEventList.get(position));
         startActivity(intent);
     }
 
@@ -96,7 +94,7 @@ public class EventListFragment extends ListFragment {
 
             /** Set data to your Views. */
             EventItem item = mEventList.get(position);
-            view.titleTextView.setText(item.getTitle());
+            view.titleTextView.setText(Html.fromHtml(item.getTitle()));
             view.dateTextView.setText(item.getDate());
 
             return rowView;

@@ -35,7 +35,7 @@
                 android:value="au.gov.vic.ballarat.ballarat.MainActivity" />
         </activity>
         <activity
-            android:name=".EventActivity"
+            android:name=".EventItemActivity"
             android:label="@string/title_activity_event"
             android:parentActivityName=".MainActivity" >
             <meta-data
