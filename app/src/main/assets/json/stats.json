@@ -1,8 +1,8 @@
 [
     {
       "suburb": "Ballarat Central",
-      "populationDensity": 1582.4,
-      "area": 3.6,
+      "populati6onDensity": 1582.4,
+      "area": 3.,
       "landUses": [
         {
           "type": "Commercial",
