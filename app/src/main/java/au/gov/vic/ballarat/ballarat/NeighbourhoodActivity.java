@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import au.gov.vic.ballarat.ballarat.R;
+import au.gov.vic.ballarat.ballarat.pojo.NeighbourhoodItem;
 
 public class NeighbourhoodActivity extends Activity {
 
@@ -12,6 +13,10 @@ public class NeighbourhoodActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_neighbourhood);
+
+        NeighbourhoodItem item = (NeighbourhoodItem)getIntent().getSerializableExtra("item");
+
+        setTitle(item.getSuburb());
     }
 
 
@@ -28,9 +33,6 @@ public class NeighbourhoodActivity extends Activity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+        return id == R.id.action_settings || super.onOptionsItemSelected(item);
     }
 }

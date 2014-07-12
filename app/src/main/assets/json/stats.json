@@ -1,33 +1,31 @@
-{
-  "stats":
-  [
+[
     {
       "suburb": "Ballarat Central",
       "populationDensity": 1582.4,
       "area": 3.6,
-      "landUse": [
+      "landUses": [
         {
           "type": "Commercial",
-          "value": 22.8,
+          "value": 22.8
         },
         {
           "type": "Industrial",
-          "value": 1.2,
+          "value": 1.2
         },
         {
           "type": "Residential",
-          "value": 58.9,
+          "value": 58.9
         },
         {
           "type": "Rural",
-          "value": 0.0,
+          "value": 0.0
         },
         {
           "type": "Other",
-          "value": 17.1,
+          "value": 17.1
         }
       ],
-      "population": [
+      "populations": [
         {
           "year": 2012,
           "percentages": [
@@ -85,23 +83,23 @@
       "keyStats": [
         {
           "name": "Number of Households",
-          "value": 2353
+          "value": "2353"
         },
         {
-          "name": "Unemployed (%)",
-          "value": 6.6
+          "name": "Unemployed",
+          "value": "6.6%"
         },
         {
           "name": "Top Industry",
           "value": "Health Care and Social Assistance"
         },
         {
-          "name": "Percentage Born Overseas",
-          "value": 11
+          "name": "Born Overseas",
+          "value": "11%"
         },
         {
-          "name": "Percentage Born in non-English speaking country",
-          "value": 6.2
+          "name": "Born in non-English speaking country",
+          "value": "6.2%"
         }
       ]
     },
@@ -109,29 +107,29 @@
       "suburb": "Delacombe",
       "populationDensity": 541.9,
       "area": 9.5,
-      "landUse": [
+      "landUses": [
         {
           "type": "Commercial",
-          "value": 0.0,
+          "value": 0.0
         },
         {
           "type": "Industrial",
-          "value": 23.7,
+          "value": 23.7
         },
         {
           "type": "Residential",
-          "value": 34.3,
+          "value": 34.3
         },
         {
           "type": "Rural",
-          "value": 0.0,
+          "value": 0.0
         },
         {
           "type": "Other",
-          "value": 41.9,
+          "value": 41.9
         }
       ],
-      "population": [
+      "populations": [
         {
           "year": 2012,
           "percentages": [
@@ -189,25 +187,24 @@
       "keyStats": [
         {
           "name": "Number of Households",
-          "value": 1844
+          "value": "1844"
         },
         {
-          "name": "Unemployed (%)",
-          "value": 4.8
+          "name": "Unemployed",
+          "value": "4.8%"
         },
         {
           "name": "Top Industry",
           "value": "Retail Trade"
         },
         {
-          "name": "Percentage Born Overseas",
-          "value": 7.5
+          "name": "Born Overseas",
+          "value": "7.5%"
         },
         {
-          "name": "Percentage Born in non-English speaking country",
-          "value": 3.9
+          "name": "Born in non-English speaking country",
+          "value": "3.9%"
         }
       ]
     }
 ]
-}
