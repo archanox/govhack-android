@@ -50,22 +50,43 @@ public class MainActivity extends Activity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
+        Fragment fragment;
+        switch (position) {
+            case 1:
+                fragment = PlaceholderFragment.newInstance(position + 1);
+                break;
+            case 2:
+                fragment = PlaceholderFragment.newInstance(position + 1);
+                break;
+            default:
+                fragment = new NewsFragment();
+                break;
+        }
         FragmentManager fragmentManager = getFragmentManager();
         fragmentManager.beginTransaction()
-                .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
+                .replace(R.id.container, fragment)
                 .commit();
     }
 
     public void onSectionAttached(int number) {
         switch (number) {
             case 1:
-                mTitle = getString(R.string.title_section1);
+                mTitle = "News & Updates";
                 break;
             case 2:
-                mTitle = getString(R.string.title_section2);
+                mTitle = "Important Dates";
                 break;
             case 3:
-                mTitle = getString(R.string.title_section3);
+                mTitle = "Major Projects";
+                break;
+            case 4:
+                mTitle = "Community Directory";
+                break;
+            case 5:
+                mTitle = "Event Calendar";
+                break;
+            case 6:
+                mTitle = "Neighbourhoods";
                 break;
         }
     }
