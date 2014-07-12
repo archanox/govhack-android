@@ -44,7 +44,7 @@ public class EventListFragment extends ListFragment {
         super.onCreate(savedInstanceState);
 
         mEventList = Utils.loadEvents(getActivity());
-        setListAdapter(new EventsArrayAdapter(getActivity(), R.layout.list_item_news, mEventList));
+        setListAdapter(new EventsArrayAdapter(getActivity(), R.layout.list_item_events, mEventList));
     }
 
     @Override
