@@ -2,6 +2,7 @@ package au.gov.vic.ballarat.ballarat;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.app.ListFragment;
@@ -23,6 +24,9 @@ import au.gov.vic.ballarat.ballarat.dummy.DummyContent;
 import au.gov.vic.ballarat.ballarat.pojo.NewsItem;
 
 public class NewsFragment extends ListFragment {
+    private static final String ARG_SECTION_NUMBER = "section_number";
+
+    private ArrayList<NewsItem> mNewsItems;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -31,12 +35,20 @@ public class NewsFragment extends ListFragment {
     public NewsFragment() {
     }
 
+    public static NewsFragment newInstance(int sectionNumber) {
+        NewsFragment fragment = new NewsFragment();
+        Bundle args = new Bundle();
+        args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        ArrayList<NewsItem> newsItems = Utils.loadNews(getActivity());
-        setListAdapter(new NewsArrayAdapter(getActivity(), R.layout.list_item_news, newsItems));
+        mNewsItems = Utils.loadNews(getActivity());
+        setListAdapter(new NewsArrayAdapter(getActivity(), R.layout.list_item_news, mNewsItems));
     }
 
     @Override
@@ -48,6 +60,11 @@ public class NewsFragment extends ListFragment {
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
 
+        NewsItem newsItem = mNewsItems.get(position);
+
+        Intent intent = new Intent(getActivity(), NewsItemActivity.class);
+        intent.putExtra("item", newsItem);
+        startActivity(intent);
     }
 
     private class NewsArrayAdapter extends ArrayAdapter<NewsItem> {
@@ -115,5 +132,12 @@ public class NewsFragment extends ListFragment {
             protected TextView titleTextView;
 
         }
+    }
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        ((MainActivity) activity).onSectionAttached(
+                getArguments().getInt(ARG_SECTION_NUMBER));
     }
 }

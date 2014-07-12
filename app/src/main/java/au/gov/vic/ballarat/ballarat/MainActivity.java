@@ -59,7 +59,7 @@ public class MainActivity extends Activity
                 fragment = PlaceholderFragment.newInstance(position + 1);
                 break;
             default:
-                fragment = new NewsFragment();
+                fragment = NewsFragment.newInstance(position + 1);
                 break;
         }
         FragmentManager fragmentManager = getFragmentManager();

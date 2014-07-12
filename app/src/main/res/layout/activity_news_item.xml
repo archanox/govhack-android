@@ -1,16 +1,82 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="au.gov.vic.ballarat.ballarat.NewsItem">
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+                <com.makeramen.RoundedImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/news_author_pic"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:corner_radius="25dp"
+                    app:border_width="0dp"
+                    app:border_color="#333333"
+                    app:mutate_background="true"
+                    android:layout_marginRight="8dp" />
 
-</RelativeLayout>
+                <TextView
+                    android:id="@+id/news_author"
+                    tools:text="City of Ballarat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/news_author_pic"
+                    android:layout_marginBottom="2dp"
+                    android:textSize="16sp"
+                    android:textIsSelectable="false"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/news_date"
+                    tools:text="10 July 2014"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/news_author"
+                    android:layout_toRightOf="@id/news_author_pic"
+                    android:textColor="@color/color_subtle" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/news_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                tools:text="Early Learning Centres for Lucas and Cardigan Village"
+                android:id="@+id/news_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/news_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

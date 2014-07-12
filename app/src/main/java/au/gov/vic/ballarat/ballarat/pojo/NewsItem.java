@@ -1,9 +1,14 @@
 package au.gov.vic.ballarat.ballarat.pojo;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import java.io.Serializable;
+
 /**
  * Created by troy on 12/07/2014.
  */
-public class NewsItem {
+public class NewsItem implements Serializable {
     private String title;
     private String date;
     private String author;
@@ -58,4 +63,5 @@ public class NewsItem {
     public void setBody(String body) {
         this.body = body;
     }
+
 }
