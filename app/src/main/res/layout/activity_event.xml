@@ -27,8 +27,17 @@
                 android:layout_height="wrap_content"
                 android:text="Large Text"
                 android:id="@+id/event_title"
-                android:layout_marginBottom="12dp"
+                android:layout_marginBottom="4dp"
                 android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/event_date"
+                android:textColor="@color/color_subtle" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -57,6 +66,7 @@
                 android:layout_column="0"
                 android:textColor="@color/color_subtle"
                 android:textSize="16sp"/>
+
             <TextView
                 android:id="@+id/event_contact"
                 android:text="Testing"
