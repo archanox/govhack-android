@@ -12,5 +12,6 @@
     <string name="title_activity_news_item">NewsItem</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_neighbourhood">Neighbourhood</string>
+    <string name="title_activity_event">EventActivity</string>
 
 </resources>

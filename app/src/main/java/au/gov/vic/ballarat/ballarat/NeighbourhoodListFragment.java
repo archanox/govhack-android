@@ -58,7 +58,7 @@ public class NeighbourhoodListFragment extends Fragment implements AbsListView.O
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_neighbourhoodlistfragment, container, false);
+        View view = inflater.inflate(R.layout.fragment_neighbourhoodlistfragment_list, container, false);
 
         // Set the adapter
         mListView = (AbsListView) view.findViewById(android.R.id.list);

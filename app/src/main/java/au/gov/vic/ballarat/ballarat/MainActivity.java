@@ -62,7 +62,7 @@ public class MainActivity extends Activity
                 fragment = PlaceholderFragment.newInstance(position + 1);
                 break;
             case 4:
-                fragment = PlaceholderFragment.newInstance(position + 1);
+                fragment = EventListFragment.newInstance(position + 1);
                 break;
             case 5:
                 fragment = NeighbourhoodListFragment.newInstance(position + 1);
