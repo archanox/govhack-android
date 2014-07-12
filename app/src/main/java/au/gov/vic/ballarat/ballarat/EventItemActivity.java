@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -28,7 +29,7 @@ public class EventItemActivity extends Activity {
         ImageView imageImageView = (ImageView) findViewById(R.id.event_image);
         String imageName = item.getImage();
 
-        if (imageName.length() > 0) {
+        if (imageName != null && imageName.length() > 0) {
             Bitmap imageBitmap = Utils.getBitmapFromAsset(this, "images/" + item.getImage());
             imageImageView = (ImageView)findViewById(R.id.event_image);
             imageImageView.setImageBitmap(imageBitmap);
@@ -37,15 +38,45 @@ public class EventItemActivity extends Activity {
             imageImageView.setVisibility(View.INVISIBLE);
         }
 
-        ((TextView)findViewById(R.id.event_title)).setText(item.getTitle());
+        ((TextView)findViewById(R.id.event_title)).setText(Html.fromHtml(item.getTitle()));
+        ((TextView)findViewById(R.id.event_date)).setText(item.getDate());
         ((TextView)findViewById(R.id.event_description)).setText(item.getDescription());
         ((TextView)findViewById(R.id.event_contact)).setText(item.getContactName());
-        ((TextView)findViewById(R.id.event_email)).setText(Html.fromHtml(item.getEmail()));
-        ((TextView)findViewById(R.id.event_website)).setText(item.getContactName());
-        ((TextView)findViewById(R.id.event_facebook)).setText(item.getContactName());
+
+        String email = item.getEmail();
+        TextView emailTextView = (TextView)findViewById(R.id.event_email);
+        if (email != null && email.length() > 0) {
+            String emailLink = "<a href=\"mailto:" + item.getEmail() + "\">Send an Email</a>";
+            emailTextView.setText(Html.fromHtml(emailLink));
+            emailTextView.setMovementMethod(LinkMovementMethod.getInstance());
+        }
+        else {
+            emailTextView.setText("N/A");
+        }
+
+        String website = item.getWebsite();
+        TextView websiteTextView = (TextView)findViewById(R.id.event_website);
+        if (website != null && website.length() > 0) {
+            String websiteLink = "<a href=\""+ item.getWebsite() + "\">Visit Website</a>";
+            websiteTextView.setText(Html.fromHtml(websiteLink));
+            websiteTextView.setMovementMethod(LinkMovementMethod.getInstance());
+        }
+        else {
+            websiteTextView.setText("N/A");
+        }
+
+        String facebookPage = item.getFacebookPage();
+        TextView facebookTextView = (TextView)findViewById(R.id.event_facebook);
+        if (facebookPage != null && facebookPage.length() > 0) {
+            String facebookLink = "<a href=\""+ item.getFacebookPage() + "\">Like Us</a>";
+            facebookTextView.setText(Html.fromHtml(facebookLink));
+            facebookTextView.setMovementMethod(LinkMovementMethod.getInstance());
+        }
+        else {
+            facebookTextView.setText("N/A");
+        }
 
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
