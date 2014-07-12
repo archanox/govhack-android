@@ -16,6 +16,7 @@ import java.io.Reader;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
+import au.gov.vic.ballarat.ballarat.pojo.EventItem;
 import au.gov.vic.ballarat.ballarat.pojo.NewsItem;
 
 /**
@@ -36,6 +37,22 @@ public class Utils {
             e.printStackTrace();
         }
         return new ArrayList<NewsItem>();
+    }
+
+    public static ArrayList<EventItem> loadEvents(Context context) {
+        try {
+            InputStream raw = context.getAssets().open("json/events.json");
+            Reader reader = new BufferedReader(new InputStreamReader(raw, "UTF8"));
+
+            Gson gson = new Gson();
+            Type listType = new TypeToken<ArrayList<EventItem>>() {}.getType();
+
+            return gson.fromJson(reader, listType);
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+        return new ArrayList<EventItem>();
     }
 
     public static Bitmap getBitmapFromAsset(Context context, String strName)

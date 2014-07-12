@@ -15,12 +15,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 
-import com.google.gson.Gson;
-
 import java.util.ArrayList;
-import java.util.List;
 
-import au.gov.vic.ballarat.ballarat.dummy.DummyContent;
 import au.gov.vic.ballarat.ballarat.pojo.NewsItem;
 
 public class NewsFragment extends ListFragment {
@@ -76,12 +72,12 @@ public class NewsFragment extends ListFragment {
 
     private class NewsArrayAdapter extends ArrayAdapter<NewsItem> {
         private final Activity activity;
-        private final ArrayList<NewsItem> list;
+        private final ArrayList<NewsItem> mNewsItems;
 
         public NewsArrayAdapter(Context context, int resource, ArrayList<NewsItem> items) {
             super(context, resource, items);
             this.activity = (Activity) context;
-            this.list = items;
+            this.mNewsItems = items;
         }
 
         @Override
@@ -109,7 +105,7 @@ public class NewsFragment extends ListFragment {
             }
 
             /** Set data to your Views. */
-            NewsItem item = list.get(position);
+            NewsItem item = mNewsItems.get(position);
             view.authorTextView.setText(item.getAuthor());
             view.dateTextView.setText(item.getDate());
             view.titleTextView.setText(item.getTitle());
@@ -128,7 +124,7 @@ public class NewsFragment extends ListFragment {
 
         @Override
         public int getCount() {
-            return this.list.size();
+            return this.mNewsItems.size();
         }
 
         private class ViewHolder {

@@ -1,5 +1,5 @@
 [{
-		"Title" : "For Auld Lang Syne at the Art Gallery of Ballarat",
+		"title" : "For Auld Lang Syne at the Art Gallery of Ballarat",
 		"Location" : "Art Gallery of Ballarat 40 Lydiard Street North Ballarat VIC 3350",
 		"Start" : "2014-04-11T00:00:00",
 		"End" : "2014-07-27T23:59:00",
@@ -10,7 +10,7 @@
 		"Website" : "http://balgal.com/",
 		"FacebookPage" : "https://www.facebook.com/ArtGalleryBallarat?fref=ts"
 	}, {
-		"Title" : "Spectacular Saturn - School Holiday Program",
+		"title" : "Spectacular Saturn - School Holiday Program",
 		"Location" : "Ballarat Observatory 439 Cobden St Entry from Magpie St",
 		"Start" : "2014-07-01T16:00:00",
 		"End" : "2014-07-12T19:00:00",
@@ -21,7 +21,7 @@
 		"Website" : "http://observatory.ballarat.net",
 		"FacebookPage" : "https://www.facebook.com/pages/Ballarat-Observatory/123704284364399"
 	}, {
-		"Title" : "25th Eureka Arms and Militaria Fair",
+		"title" : "25th Eureka Arms and Militaria Fair",
 		"Location" : "Wendouree Sports and Events Centre Norman St, Wendouree, Ballarat",
 		"Start" : "2014-07-12T09:00:00",
 		"End" : "2014-07-13T09:00:00",
@@ -32,7 +32,7 @@
 		"Website" : "http://www.ballaratarms.com.au",
 		"FacebookPage" : null
 	}, {
-		"Title" : "Alliance Fran&#231;aise de Ballarat Bastille Day Dinner",
+		"title" : "Alliance Fran&#231;aise de Ballarat Bastille Day Dinner",
 		"Location" : "G Place 102 English Street (off Grant Street)",
 		"Start" : "2014-07-12T19:00:00",
 		"End" : "2014-07-12T23:00:00",
@@ -43,7 +43,7 @@
 		"Website" : "http://afballarat.com.au",
 		"FacebookPage" : null
 	}, {
-		"Title" : "Buninyong Pre - School -  50th Anniversary - Gala Ball",
+		"title" : "Buninyong Pre - School -  50th Anniversary - Gala Ball",
 		"Location" : "Buninyong Golf Club, Buninyong",
 		"Start" : "2014-07-12T19:30:00",
 		"End" : "2014-07-12T23:00:00",
@@ -54,7 +54,7 @@
 		"Website" : "http://https://www.stickytickets.com.au/17683",
 		"FacebookPage" : "https://www.facebook.com/groups/1419564708293463/"
 	}, {
-		"Title" : "At Last: The Etta James Story",
+		"title" : "At Last: The Etta James Story",
 		"Location" : "Her Majesty's 17 Lydiard Street, South Ballarat ",
 		"Start" : "2014-07-12T20:00:00",
 		"End" : "2014-07-12T22:30:00",
@@ -65,7 +65,7 @@
 		"Website" : "http://hermaj.com/what-s-on/events/at-last-the-etta-james-story",
 		"FacebookPage" : "http://www.facebook.com/AtLastTheEttaJamesStory"
 	}, {
-		"Title" : "From Africa WIth Love",
+		"title" : "From Africa WIth Love",
 		"Location" : "Backspace Gallery Huyghue House, Alfred Deakin Place @Camp Street &amp; Police Lane, Ballarat Vic 3350",
 		"Start" : "2014-07-18T18:00:00",
 		"End" : "2014-07-27T16:00:00",
@@ -76,7 +76,7 @@
 		"Website" : "http://www.lovewildlifephotography.com",
 		"FacebookPage" : null
 	}, {
-		"Title" : "Writing workshop with Toni Jordan",
+		"title" : "Writing workshop with Toni Jordan",
 		"Location" : "Musuem of Australian Democracy at Eureka Stawell Street South, Ballarat",
 		"Start" : "2014-07-19T11:00:00",
 		"End" : "2014-07-19T13:00:00",
@@ -87,7 +87,7 @@
 		"Website" : "http://ballaratwriters.com/workshops/july-dialogue-with-toni-jordan/",
 		"FacebookPage" : "http://www.facebook.com/BallaratWriters"
 	}, {
-		"Title" : "Community Fun Day on the Yarrowee",
+		"title" : "Community Fun Day on the Yarrowee",
 		"Location" : "Redan Wetlands,  Orion Street, Sebastopol",
 		"Start" : "2014-07-20T10:00:00",
 		"End" : "2014-07-20T13:00:00",
@@ -98,7 +98,7 @@
 		"Website" : "http://www.leighcatchmentgroup.org",
 		"FacebookPage" : null
 	}, {
-		"Title" : "Fun Day on the Yarrowee River",
+		"title" : "Fun Day on the Yarrowee River",
 		"Location" : "Redan Wetlands Orion Street, Sebastopol",
 		"Start" : "2014-07-20T10:00:00",
 		"End" : "2014-07-20T13:00:00",
@@ -109,7 +109,7 @@
 		"Website" : "http://www.leighcatchmentgroup.org",
 		"FacebookPage" : null
 	}, {
-		"Title" : "Bring Him Home - Ballarat",
+		"title" : "Bring Him Home - Ballarat",
 		"Location" : "Brown Hill Hall Humffray St North, Ballarat",
 		"Start" : "2014-07-20T15:00:00",
 		"End" : "2014-07-20T17:00:00",
@@ -120,7 +120,7 @@
 		"Website" : "http://www.thevoiceprofessional.com.au",
 		"FacebookPage" : "http://www.facebook.com/thevoiceprofessional"
 	}, {
-		"Title" : "Royal South Street Competition",
+		"title" : "Royal South Street Competition",
 		"Location" : "Her Majesty's Theatre  17 Lydiard Street Sth Ballarat ",
 		"Start" : "2014-07-28T00:00:00",
 		"End" : "2014-11-02T23:59:00",
@@ -131,7 +131,7 @@
 		"Website" : "http://www.royalsouthstreet.com.au/",
 		"FacebookPage" : "https://www.facebook.com/royalsouthstreet"
 	}, {
-		"Title" : "Royal South Street Debating Challenge Cup",
+		"title" : "Royal South Street Debating Challenge Cup",
 		"Location" : "Town Hall - Council Chambers  Sturt Street Ballarat ",
 		"Start" : "2014-07-28T00:00:00",
 		"End" : "2014-08-25T23:59:00",
@@ -142,7 +142,7 @@
 		"Website" : "http://www.royalsouthstreet.com.au/",
 		"FacebookPage" : "https://www.facebook.com/royalsouthstreet"
 	}, {
-		"Title" : "Community Sports Camps Football and Netball Clinics",
+		"title" : "Community Sports Camps Football and Netball Clinics",
 		"Location" : "Alfredton Oval, Cuthberts Road, Alfredton",
 		"Start" : "2014-07-02T00:00:00",
 		"End" : "2014-07-02T23:59:00",
@@ -153,7 +153,7 @@
 		"Website" : "http://www.communitycamps.com.au",
 		"FacebookPage" : null
 	}, {
-		"Title" : "School Holiday Pottery Class &#8211; Clay Thongs",
+		"title" : "School Holiday Pottery Class &#8211; Clay Thongs",
 		"Location" : "ClayMotion 37Tierneys Rd, Dunnstown 3352",
 		"Start" : "2014-07-02T14:00:00",
 		"End" : "2014-07-02T16:00:00",
@@ -164,7 +164,7 @@
 		"Website" : null,
 		"FacebookPage" : "https://www.facebook.com/pages/ClayMotion/116325345099724"
 	}, {
-		"Title" : "Death In July festival",
+		"title" : "Death In July festival",
 		"Location" : "Musuem of Australian Democracy at Eureka Stawell Street South, Ballarat",
 		"Start" : "2014-07-04T18:00:00",
 		"End" : "2014-01-05T17:00:00",
@@ -175,7 +175,7 @@
 		"Website" : "http://www.ballaratwriters.com",
 		"FacebookPage" : "http://www.facebook.com/BallaratWriters"
 	}, {
-		"Title" : "School Holiday Pottery Class &#8211; Pencil Holder",
+		"title" : "School Holiday Pottery Class &#8211; Pencil Holder",
 		"Location" : "ClayMotion 37Tierneys Rd, Dunnstown 3352",
 		"Start" : "2014-07-09T10:00:00",
 		"End" : "2014-07-09T12:00:00",

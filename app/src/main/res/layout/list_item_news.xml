@@ -31,9 +31,9 @@
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/news_author_pic"
                 android:layout_marginBottom="2dp"
-                android:textSize="16sp"
                 android:textIsSelectable="false"
-                android:layout_marginTop="4dp" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="2dp" />
 
             <TextView
                 android:id="@+id/news_date"
@@ -58,12 +58,10 @@
             android:id="@+id/news_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18dp"
-            android:textStyle="bold"
-            android:textColor="#333333"
             android:paddingLeft="16dp"
             android:paddingTop="8dp"
             android:paddingRight="16dp"
-            android:paddingBottom="16dp" />
+            android:paddingBottom="32dp"
+            android:textSize="20sp" />
         </LinearLayout>
 </LinearLayout>

@@ -13,16 +13,91 @@ public class EventItem implements Serializable {
     private String category;
     private String description;
     private String contactName;
-    
-//    "Title" : "For Auld Lang Syne at the Art Gallery of Ballarat",
-//    "Location" : "Art Gallery of Ballarat 40 Lydiard Street North Ballarat VIC 3350",
-//    "Start" : "2014-04-11T00:00:00",
-//    "End" : "2014-07-27T23:59:00",
-//    "Category" : "community",
-//    "Description" : "Celebrate the role played by Scots in development of the Australian nation from the First Fleet to Federation at Australia's oldest and largest regional gallery.",
-//    "ContactName" : "Emily Osmond",
-//    "Email" : "emilyosmond@brt.org.au",
-//    "Website" : "http://balgal.com/",
-//    "FacebookPage" : "https://www.facebook.com/ArtGalleryBallarat?fref=ts"
+    private String email;
+    private String website;
+    private String facebookPage;
 
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(String startDate) {
+        this.startDate = startDate;
+    }
+
+    public String getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(String endDate) {
+        this.endDate = endDate;
+    }
+
+    public String getDate() {
+        return "11 July - 12 August";
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getContactName() {
+        return contactName;
+    }
+
+    public void setContactName(String contactName) {
+        this.contactName = contactName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getWebsite() {
+        return website;
+    }
+
+    public void setWebsite(String website) {
+        this.website = website;
+    }
+
+    public String getFacebookPage() {
+        return facebookPage;
+    }
+
+    public void setFacebookPage(String facebookPage) {
+        this.facebookPage = facebookPage;
+    }
 }
