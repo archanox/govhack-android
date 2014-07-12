@@ -52,6 +52,13 @@ public class NewsFragment extends ListFragment {
     }
 
     @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        ((MainActivity) activity).onSectionAttached(
+                getArguments().getInt(ARG_SECTION_NUMBER));
+    }
+
+    @Override
     public void onDetach() {
         super.onDetach();
     }
@@ -132,12 +139,5 @@ public class NewsFragment extends ListFragment {
             protected TextView titleTextView;
 
         }
-    }
-
-    @Override
-    public void onAttach(Activity activity) {
-        super.onAttach(activity);
-        ((MainActivity) activity).onSectionAttached(
-                getArguments().getInt(ARG_SECTION_NUMBER));
     }
 }

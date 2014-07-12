@@ -26,6 +26,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="au.gov.vic.ballarat.ballarat.MainActivity" />
         </activity>
+        <activity
+            android:name=".NeighbourhoodActivity"
+            android:label="@string/title_activity_neighbourhood"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="au.gov.vic.ballarat.ballarat.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
