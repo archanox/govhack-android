@@ -41,6 +41,7 @@ public class EventItemActivity extends Activity {
         ((TextView)findViewById(R.id.event_title)).setText(Html.fromHtml(item.getTitle()));
         ((TextView)findViewById(R.id.event_date)).setText(item.getDate());
         ((TextView)findViewById(R.id.event_description)).setText(item.getDescription());
+        ((TextView)findViewById(R.id.event_location)).setText(item.getLocation());
         ((TextView)findViewById(R.id.event_contact)).setText(item.getContactName());
 
         String email = item.getEmail();
