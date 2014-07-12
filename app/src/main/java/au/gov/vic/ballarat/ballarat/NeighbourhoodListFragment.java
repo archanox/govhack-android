@@ -70,7 +70,7 @@ public class NeighbourhoodListFragment extends ListFragment {
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
 
-        Intent intent = new Intent(getActivity(), EventItemActivity.class);
+        Intent intent = new Intent(getActivity(), NeighbourhoodActivity.class);
         intent.putExtra("item", mNeighbourhoodItems.get(position));
         startActivity(intent);
     }
@@ -93,7 +93,7 @@ public class NeighbourhoodListFragment extends ListFragment {
             if(rowView == null) {
                 // Get a new instance of the row layout view
                 LayoutInflater inflater = activity.getLayoutInflater();
-                rowView = inflater.inflate(R.layout.list_item_events, null);
+                rowView = inflater.inflate(R.layout.list_item_neighbourhoods, null);
 
                 // Hold the view objects in an object, that way the don't need to be "re-  finded"
                 view = new ViewHolder();

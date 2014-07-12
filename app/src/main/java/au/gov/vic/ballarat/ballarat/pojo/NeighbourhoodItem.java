@@ -62,7 +62,7 @@ public class NeighbourhoodItem implements Serializable {
         this.keyStats = keyStats;
     }
 
-    private class LandUse {
+    private class LandUse implements Serializable {
         private String type;
         private float value;
 
@@ -83,7 +83,7 @@ public class NeighbourhoodItem implements Serializable {
         }
     }
 
-    private class Population {
+    private class Population implements Serializable {
         private int year;
         private ArrayList<Percentage> percentages = new ArrayList<Percentage>();
 
@@ -103,7 +103,7 @@ public class NeighbourhoodItem implements Serializable {
             this.percentages = percentages;
         }
 
-        private class Percentage {
+        private class Percentage implements Serializable {
             private String age;
             private float value;
 
@@ -125,7 +125,7 @@ public class NeighbourhoodItem implements Serializable {
         }
     }
 
-    private class KeyStat {
+    private class KeyStat implements Serializable {
         private String name;
         private String value;
 
