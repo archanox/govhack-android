@@ -13,7 +13,6 @@ import android.widget.ListView;
 
 
 import au.gov.vic.ballarat.ballarat.db.BallaratContentProvider;
-import au.gov.vic.ballarat.ballarat.db.BallaratContentProviderClient;
 import au.gov.vic.ballarat.ballarat.db.BallaratDB;
 import au.gov.vic.ballarat.ballarat.dummy.DummyContent;
 
@@ -42,13 +41,8 @@ public class DirectoryListFragment extends ListFragment implements LoaderManager
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-//
-//        // TODO: Change Adapter to display your content
-//        setListAdapter(new ArrayAdapter<DummyContent.DummyItem>(getActivity(),
-//                android.R.layout.simple_list_item_1, android.R.id.text1, DummyContent.ITEMS));
-          fillData();
+        fillData();
     }
-
 
     @Override
     public void onAttach(Activity activity) {
