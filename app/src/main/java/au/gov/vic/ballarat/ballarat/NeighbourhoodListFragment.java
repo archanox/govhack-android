@@ -107,7 +107,7 @@ public class NeighbourhoodListFragment extends ListFragment {
             /** Set data to your Views. */
             NeighbourhoodItem item = mNeighbourhoodItems.get(position);
             view.suburbNameTextView.setText(item.getSuburb());
-            view.populationTextView.setText(Float.toString(item.getArea()));
+            view.populationTextView.setText(Integer.toString(item.getPopulation()) + " people");
 
             return rowView;
         }

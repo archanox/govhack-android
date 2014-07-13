@@ -8,6 +8,7 @@ import java.util.ArrayList;
  */
 public class NeighbourhoodItem implements Serializable {
     private String suburb;
+    private int population;
     private float populationDensity;
     private float area;
     private ArrayList<LandUse> landUses = new ArrayList<LandUse>();
@@ -60,6 +61,14 @@ public class NeighbourhoodItem implements Serializable {
 
     public void setKeyStats(ArrayList<KeyStat> keyStats) {
         this.keyStats = keyStats;
+    }
+
+    public int getPopulation() {
+        return population;
+    }
+
+    public void setPopulation(int population) {
+        this.population = population;
     }
 
     private class LandUse implements Serializable {

@@ -1,6 +1,7 @@
 [
     {
       "suburb": "Ballarat Central",
+      "population": 5703,
       "populationDensity": 1582.4,
       "area": 3.6,
       "landUses": [
@@ -105,6 +106,7 @@
     },
     {
       "suburb": "Delacombe",
+      "population": 5172,
       "populationDensity": 541.9,
       "area": 9.5,
       "landUses": [
