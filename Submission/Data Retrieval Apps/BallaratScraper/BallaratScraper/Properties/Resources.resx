@@ -1,0 +1,1443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EventsPage" xml:space="preserve">
+    <value>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;!--[if lt IE 7]&gt;      &lt;html class="no-js lt-ie9 lt-ie8 lt-ie7"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt;         &lt;html class="no-js lt-ie9 lt-ie8"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt;         &lt;html class="no-js lt-ie9"&gt; &lt;![endif]--&gt;
+&lt;!--[if gt IE 8]&gt; &lt;html class="no-js"&gt; &lt;![endif]--&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;&lt;!--[if IE]&gt; &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"&gt;&lt;![endif]--&gt;
+
+      &lt;title&gt;
+        Events City of Ballarat 
+    &lt;/title&gt;
+    &lt;!-- http-equiv meta-data --&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+    &lt;meta http-equiv="Content-Language" content="en-au" /&gt;
+     &lt;meta http-equiv="imagetoolbar" content="false" /&gt;
+    &lt;meta name="MSSmartTagsPreventParsing" content="true" /&gt;
+    &lt;!-- meta-data --&gt;
+    &lt;meta name="keywords" content="" /&gt;
+    &lt;meta name="description" content="Ballarat hosts a huge number of events and festivals throughout the year which celebrate the best of the region. View the calendar or submit your event." /&gt;
+    &lt;meta name="copyright" content="City of Ballarat 2013" /&gt;
+
+    &lt;link rel="shortcut icon" href="http://www.ballarat.vic.gov.au/media/1866358/cobround.ico"  /&gt;
+    &lt;meta content="yes" name="apple-mobile-web-app-capable"&gt;
+    &lt;meta content="black" name="apple-mobile-web-app-status-bar-style"&gt;
+    &lt;meta content="initial-scale=1.0, user-scalable=no" name="viewport"&gt;
+    &lt;!--[if IE]&gt;&lt;link rel="stylesheet" type="text/css" href="/css/MCOBfontawesomeie7.css"&gt;&lt;![endif]--&gt;
+    
+    &lt;!-- Shortcut Logos --&gt;
+    &lt;link href="images/demo_content/metroentrance1.jpg" rel="apple-touch-icon-precomposed" sizes="114x114"&gt;
+
+    &lt;!-- /Shortcut Logos --&gt;
+    
+    &lt;!-- Splash screens --&gt;
+        &lt;!-- iPhone 320x460 --&gt;
+        &lt;link href="images/demo_content/splashscreens/apple-touch-startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image"&gt;
+        &lt;!-- iPhone (Retina) 640x920 --&gt;
+        &lt;link href="images/demo_content/splashscreens/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"&gt;
+        &lt;!-- iPhone 5 640x1096--&gt;
+        &lt;link href="images/demo_content/splashscreens/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"&gt;
+        &lt;!-- iPad 768x1004 / 748x1024--&gt;
+        &lt;link href="images/demo_content/splashscreens/apple-touch-startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image"&gt;
+        &lt;link href="images/demo_content/splashscreens/apple-touch-startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image"&gt;
+        &lt;!-- iPad (Retina) 1536x2008 / 1496x2048 --&gt;
+        &lt;link href="images/demo_content/splashscreens/apple-touch-startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"&gt;
+        &lt;link href="images/demo_content/splashscreens/apple-touch-startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"&gt;
+  	&lt;!-- / Splash Screens --&gt;
+
+    
+    &lt;link href='/css/MCOBstyle.css' id='styles-css' media='all' rel='stylesheet' type='text/css'&gt;&lt;!-- General Style --&gt;
+
+
+     &lt;link type="text/css" rel="stylesheet" href="http://www.ballarat.vic.gov.au/media/2299781/bootstrap.min.css" media="print,screen, projection"&gt;
+     &lt;link type="text/css" rel="stylesheet" href="http://www.ballarat.vic.gov.au/css/COBMetroContent.css" media="print,screen, projection"&gt;
+     &lt;link type="text/css" rel="stylesheet" href="http://www.ballarat.vic.gov.au/css/2014Color.css" media="print,screen, projection"&gt;
+
+
+
+    &lt;!-- Scripts --&gt;
+    &lt;script type="text/javascript" src="http://www.ballarat.vic.gov.au/media/2271186/jquery-1.11.0.min.js"&gt;&lt;/script&gt;
+    &lt;script src='http://www.ballarat.vic.gov.au/scripts/COBMobile/jquery.easing.1.3.js'&gt;&lt;/script&gt;
+    &lt;script src='http://www.ballarat.vic.gov.au/scripts/COBMobile/bootstrap.min.js' type='text/javascript'&gt;&lt;/script&gt;
+    
+    
+    &lt;script src='http://www.ballarat.vic.gov.au/scripts/COBMobile/vendor/modernizr-2.6.1.min.js' type='text/javascript'&gt;&lt;/script&gt;
+    &lt;!-- / Scripts --&gt;
+
+&lt;script type="text/javascript" src="http://www.ballarat.vic.gov.au/media/1687041/jquery.realperson.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://www.ballarat.vic.gov.au/media/1662429/jquery.validate.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://www.ballarat.vic.gov.au/media/2316359/iframeresizer.min.js"&gt;&lt;/script&gt;
+
+
+&lt;script src="http://f1.eu.readspeaker.com/script/default/ReadSpeaker.js?pids=embhl" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://www.ballarat.vic.gov.au/scripts/COB2012/COBReadSpeaker.js" type="text/javascript"&gt;&lt;/script&gt;  
+ 
+
+
+
+&lt;link type="text/css" rel="stylesheet" href="/css/COB_CSS_LA.css" media="screen, projection" /&gt;
+
+ &lt;link type="text/css" rel="stylesheet" href="http://www.ballarat.vic.gov.au/css/2013CalFullView.css" media="print,screen, projection" /&gt;
+
+
+   
+    
+
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;form method="post" action="/lae/events.aspx" id="ctl04"&gt;
+&lt;div class="aspNetHidden"&gt;
+&lt;input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MWRkeMnKtl7CZ1EnKzcpYFwNrIuVcWoo4E71H1SnrJMsi3A=" /&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+var More="";
+var ga;
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-12440837-5']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+window.onload = function() {
+  var a = document.getElementsByTagName('a');
+  for (i = 0; i &lt; a.length; i++) {
+    if (a[i].hostname === location.hostname) {
+      if (a[i].href.match(/^http?:\/\/.+\.(zip|dmg|txt|cfg|gz|pl|doc|docx|pdf)$/i)) {
+        a[i].setAttribute('target', '_blank');
+	var Reader="";
+	Reader="&lt;a class='no-print' target='ReaderWindow' href='http://docreader.readspeaker.com/docreader/index.php?jsmode=1&amp;cid=btaui&amp;lang=en_au&amp;voice=Karen&amp;speed=100&amp;url=" + a[i].href + "&amp;v=Google%20Inc.'&gt;&lt;img style='width:16px;height=16px;' alt='Read Document Aloud With ReadSpeaker' title='Read Aloud : " + a[i].innerText + "' src='/media/2382098/pinsaudio.png'&gt;&lt;/a&gt;";
+        a[i].insertAdjacentHTML('afterEnd',Reader)
+        a[i].onclick = function() {
+	_gaq.push(['_trackEvent', 'Downloads', 'Click', 'Download_(' + location.href + ') -- '+$(this).attr('href')]); 
+
+
+        };
+      }
+    }
+  }
+}
+&lt;/script&gt;
+
+    &lt;!-- Wrapper --&gt;  
+&lt;div id="doctop"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-12440837-5']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+&lt;/script&gt;
+&lt;div class="DarkBlock no-print fixed-top-menu"&gt;          	
+
+&lt;div class="noMobile"&gt;
+&lt;div id="NavATop "&gt;
+ &lt;div id="NavTopLeft " style="float:left;width:400px;"&gt;
+  &lt;a href="http://www.ballarat.vic.gov.au"&gt;&lt;img width="30px" height="30px" style="float:left;width:30px;height:30px;" alt="City of Ballarat Home" src="/media/1858588/cobround.png"/&gt;&lt;/a&gt;
+     &lt;ul id="TopMenu"&gt;
+	&lt;li&gt;&lt;a href="/ac/careers.aspx"&gt;Careers&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/ac/payments.aspx"&gt;Payments&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/ac/public-notices.aspx"&gt;Public Notices&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/ac/permits-and-forms.aspx"&gt;Forms&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/ac/connecting-to-council/contact-us.aspx"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+ &lt;/div&gt;
+
+ &lt;div id="NavTopRight"&gt;
+   &lt;a href="http://www.facebook.com/ballaratcity"&gt;&lt;img width="25px" height="25px" style="float:right;width:25px;height:25px;padding-left:3px;" alt="Facebook" src="http://www.ballarat.vic.gov.au/media/1858378/fb.png"/&gt;&lt;/a&gt;
+   &lt;a href="https://twitter.com/cityofballarat"&gt;&lt;img width="25px" height="25px" style="float:right;width:25px;height:25px;padding-left:3px;" alt="Twitter" src="http://www.ballarat.vic.gov.au/media/1858387/twitter.png"/&gt;&lt;/a&gt;
+  &lt;div class="HeaderLinkSearch"&gt;
+  &lt;gcse:searchbox-only&gt;&lt;/gcse:searchbox-only&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div class="wrapper"&gt;
+ 
+
+&lt;div id="MobileMenu" class="doMobile"&gt;
+
+&lt;!-- Fixed navbar --&gt;
+    &lt;div class="navbar navbar-inverse navbar-fixed-top" role="navigation"&gt;
+     
+        &lt;div class="navbar-header"&gt;
+          &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="float:right;"&gt;
+            &lt;span class="sr-only"&gt;Menu&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;a class="navbar-brand" href="/"&gt;City of Ballarat&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="navbar-collapse collapse"&gt;
+          &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="active"&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="/popular"&gt;Popular&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="/customerrequest.aspx"&gt;Lodge a Customer Request&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/payments.aspx"&gt;Make a Payment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/waste.aspx"&gt;Check Bin Collection&lt;/a&gt;&lt;/li&gt;
+
+
+ &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li class="building-top"&gt;&lt;div class="building smallbox"&gt;&lt;/div&gt;&lt;a href="/pbs"&gt;Building Planning Strategy&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="community-top"&gt;&lt;a href="/pc"&gt;Family and Health&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class="arts-top"&gt;&lt;a href="/lae"&gt;Arts, Leisure and Events&lt;/a&gt;&lt;/li&gt;
+	   &lt;li class="property-top"&gt;&lt;a href="/ps"&gt;Rates Roads and Animals&lt;/a&gt;&lt;/li&gt;
+	   &lt;li class="sustain-top"&gt;&lt;a href="/sh"&gt;Sustainability and Heritage&lt;/a&gt;&lt;/li&gt;
+&lt;li class="business-top"&gt;&lt;a href="/ed"&gt;Economic Development&lt;/a&gt;&lt;/li&gt;
+&lt;li class="visiting-top"&gt;&lt;a href="/vs"&gt;Visiting Ballarat&lt;/a&gt;&lt;/li&gt;
+&lt;li class="council-top"&gt;&lt;a href="/ac"&gt;About Council&lt;/a&gt;&lt;/li&gt;
+            
+          &lt;/ul&gt;
+        &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+      &lt;/div&gt;
+    
+&lt;/div&gt;
+&lt;div id="smartMN" class="noMobile  " &gt;
+
+&lt;ul id="menu" &gt;
+&lt;div style="height:100%;background-color:#000;"&gt;
+&lt;li class="logo"&gt;
+&lt;img src="/media/2319691/translogo2014.png" alt="City of Ballarat Logo"&gt;
+&lt;/li&gt;
+
+
+&lt;li class="BoxM building-top "&gt; 
+	&lt;a  AccessKey="P" class="drop" href="/pbs"&gt;&lt;img src="/media/1866235/menupbs.png" alt="Planning Building &amp; Strategy"/&gt;&lt;/a&gt;
+	&lt;div class="dropdown_5columns fader box_shadow building-top" style="margin:auto auto;"&gt;
+	&lt;div style="float:left;height:100%; width:3%;"&gt;
+	&lt;img style="float:left;" src="/media/2280864/buildplan.png" alt="Building Planning and Strategy Menu"&gt;
+	&lt;/div&gt;
+
+
+	
+&lt;div style="display:inline-block;float:left; height:10px; width:96%"&gt;
+
+&lt;/div&gt;
+
+	&lt;div style="display:inline-block;float:left;width:96%"&gt;
+	&lt;div class="col_1"&gt;
+	&lt;ul&gt;	
+	&lt;li class="NavTitle building"&gt;&lt;a class="BContrast" href="/pbs/statutory-planning.aspx"&gt;Statutory Planning&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/mediation-meetings.aspx"&gt;Mediation Meetings&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/planning-permits-types/liquor-licence.aspx"&gt;Liquor licences&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/planning-certificates.aspx"&gt;Planning Certificates&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/certificate-of-compliance.aspx"&gt;Compliance Certificates&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/cultural-heritage-management-plans-(chmp).aspx"&gt;Cultural Heritage&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/planning-enforcement.aspx"&gt;Planning Enforcement&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/planning-permits-types/heritage-check-before-you-demolish.aspx"&gt;Before you demolish&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;
+&lt;ul&gt;
+	&lt;li class="NavTitle building"&gt;&lt;a class="BContrast" href="/pbs/statutory-planning.aspx"&gt;Statutory Planning&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/current-planning-applications.aspx"&gt;View Planning Applications&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/application-fees.aspx"&gt;Planning Application fees&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/application-checklists,-forms-and-guides.aspx"&gt;Planning forms &amp;amp; checklists&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/applying-for-a-planning-permit.aspx"&gt;Applying for a permit&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/pbs/statutory-planning/planning-permits-types.aspx"&gt;Permit types&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/applying-for-a-planning-permit.aspx#tabs-2"&gt;Permit process&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/planning-permits-types/subdivisions.aspx"&gt;Subdivision&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/statutory-planning/overlays.aspx"&gt;Overlays&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+	&lt;div class="col_1"&gt;
+	&lt;ul&gt;
+	&lt;li class="NavTitle building"&gt;&lt;a href="/pbs/building.aspx"&gt;Building&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/building.aspx#tabs-2"&gt;Building Information&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/building/application-forms.aspx"&gt;Building Forms&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://www.ballarat.vic.gov.au/pbs/building/place-of-public-entertainment.aspx"&gt;Place of Public Entertainment Permit&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/building/owner-builder-laws.aspx"&gt;Laws - Owner Builder&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pbs/building/fencing.aspx"&gt;Fencing&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/ps/waste/skip-bins.aspx"&gt;Skip Bins&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/pc/public-health/septic-tanks.aspx"&gt;Septic Tanks&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/div&gt;
+
+&lt;div class="col_1"&gt;
+&lt;ul&gt;
+&lt;li class="NavTitle building"&gt;&lt;a href="/pbs/city-strategy"&gt;City Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/city-strategy/ballarat-planning-scheme.aspx"&gt;Ballarat Planning Scheme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/city-strategy/planning-scheme-amendments.aspx"&gt;Planning Scheme Amendments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/city-strategy/on-exhibition.aspx"&gt;Amendments On Exhibition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/city-strategy/strategic-projects-and-frameworks.aspx"&gt;Projects and Frameworks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballarat.vic.gov.au/pbs/major-projects"&gt;Major Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/li&gt;
+
+&lt;!--  -------------------------------------------  Family --&gt;
+    
+&lt;li class="BoxM community-top "&gt;
+
+&lt;a  AccessKey="C" class="drop" href="/pc"&gt;&lt;img src="/media/1866274/menupc.png" alt="Family Community and Health"/&gt;&lt;/a&gt;
+&lt;div class="dropdown_5columns fader box_shadow community-top"&gt;
+&lt;div style="float:left;height:100%; width:3%;"&gt;
+&lt;img style="float:left;" src="/media/2280844/famhealth.png" alt="Family Community and Health Menu"&gt;
+&lt;/div&gt;
+
+
+	&lt;div style="display:inline-block;float:left;width:96%;height:15px;"&gt;
+	
+&lt;/div&gt;
+
+	&lt;div style="display:inline-block;float:left;width:96%"&gt;
+
+
+&lt;div class="col_0"&gt;
+&lt;ul&gt;
+&lt;li class="NavTitle community"&gt;Wellbeing and Safety&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/budget-reports-and-plans/municipal-public-health-wellbeing-plan.aspx"&gt;Public Wellbeing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/food-safety.aspx"&gt;Food Safety&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/infectious-disease-control.aspx"&gt;Infectious Disease&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/programs-projects/housing.aspx"&gt;Housing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/programs-projects/responsible-gambling.aspx"&gt;Responsible Gambling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/emergency-management.aspx"&gt;Emergency Management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/community-safety.aspx"&gt;Community Safety&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/community-grants.aspx"&gt;Grants &amp;amp; Sponsorships&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/programs-projects/community-gardens.aspx"&gt;Community Gardens&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;/div&gt;
+	
+&lt;div class="col_0"&gt;&lt;ul&gt;
+&lt;li class="NavTitle community"&gt;&lt;a AccessKey="K" href="/pc/family-and-children/"&gt;Family &amp;amp; Children&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/family-and-children/child-friendly-ballarat.aspx"&gt;Child Friendly Ballarat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/family-and-children/maternal-and-child-health.aspx"&gt;Maternal &amp;amp; Child Health&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/family-and-children/child-care.aspx"&gt;Child Care/Playgroups&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/family-and-children/family-support.aspx"&gt;Family Support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/family-and-children/immunisation.aspx"&gt;Immunisations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/heritage/heritage-research.aspx"&gt;Family Heritage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/community-safety/family-violence-prevention.aspx"&gt;Family Violence Prevention&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/youth.aspx"&gt;Youth Services&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+
+&lt;div class="col_0"&gt;&lt;ul&gt;
+&lt;li class="NavTitle community"&gt;&lt;a href="/popular"&gt;Popular Information&lt;/a&gt;&lt;img src="/media/2302986/highlight.png" style="float:right;" alt="Popular"/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/myballarat.aspx"&gt;myBallarat Magazine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/community-directory.aspx"&gt;Community Directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/awards-and-ceremonies.aspx"&gt;Ceremonies &amp;amp; Awards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.centralhighlandslibraries.org.au"&gt;Libraries&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="/ed/new-residents-brochure.aspx"&gt;New Residents Program&lt;/a&gt;&lt;/li&gt;
+
+&lt;li class="NavTitle community"&gt;&lt;a href="/pc/education.aspx"&gt;Education/Employment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/family-and-children/kindergartens.aspx"&gt;Kindergartens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/education/skilled-migration-program.aspx"&gt;Skilled Migration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/education/regional-certifying-body.aspx"&gt;Grampians RCB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/volunteering.aspx"&gt;Volunteering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+	
+&lt;div class="col_0"&gt;&lt;ul&gt;
+&lt;li class="NavTitle community"&gt;&lt;a href="/pc/seniors.aspx"&gt;Seniors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/seniors/in-home-support.aspx"&gt;In Home Support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/seniors/staying-active-and-connected.aspx"&gt;Staying Active&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/awards-and-ceremonies/senior-of-the-year.aspx"&gt;Seniors Awards&lt;/a&gt;&lt;/li&gt;
+&lt;li &gt;&amp;nbsp;&lt;/li&gt;
+&lt;li class="NavTitle community"&gt;&lt;a href="/pc/access-for-all-abilities.aspx"&gt;DisAbility Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/access-for-all-abilities/disabled-parking-permits.aspx"&gt;Disabled Parking Permits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/access-for-all-abilities.aspx"&gt;Access for All Abilities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/programs-projects/transport-connection.aspx"&gt;Transport Connections&lt;/a&gt;&lt;/li&gt;
+&lt;li style="line-height:5px;"&gt;&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_0"&gt;&lt;ul&gt;
+&lt;li class="NavTitle community"&gt;&lt;a href="/pc/cultural-diversity.aspx"&gt;Community Culture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/cultural-diversity.aspx"&gt;Cultural Diversity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/cultural-diversity/multicultural-ambassadors.aspx"&gt;Multicultural Ambassadors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/cultural-diversity/aboriginal-reconciliation.aspx"&gt;Aboriginal Reconciliation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ab/international-relations.aspx"&gt;International Relations&lt;/a&gt;&lt;/li&gt;
+&lt;li class="NavTitle community"&gt;&lt;a href="/pc/programs-projects.aspx"&gt;My Neighbourhood&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/major-projects/empowering-communities-buninyong.aspx"&gt;Buninyong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/major-projects/empowering-communities-learmonth.aspx"&gt;Learmonth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/major-projects/empowering-communities-miners-rest.aspx"&gt;Miners Rest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/programs-projects/meet-the-neighbourhood.aspx"&gt;Meet The Neighbourhood&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+
+
+&lt;li class="BoxM arts-top " &gt;
+&lt;a AccessKey="A" href="/lae" class="drop"&gt;&lt;img src="/media/1866283/menulae.png" alt="Leisure Arts and Events"/&gt;&lt;/a&gt;
+
+&lt;div class="dropdown_5columns fader box_shadow arts-top"&gt;
+&lt;div style="float:left;height:100%; width:3%;"&gt;
+&lt;img style="float:left;" src="/media/2280854/artsevents.png" alt="Leisure Arts and Events Menu"&gt;
+&lt;/div&gt;
+
+&lt;div style="display:inline-block;float:left;height:10px;width:96%"&gt;
+
+&lt;/div&gt;
+
+	&lt;div style="display:inline-block;float:left;width:96%"&gt;
+
+
+
+
+&lt;div class="col_1"&gt;
+&lt;ul&gt;
+
+&lt;li class="NavTitle arts"&gt;&lt;a href="/lae/gardens.aspx"&gt;Gardens &amp;amp; Reserves&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/bookings-and-maintenance.aspx"&gt;Book a space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/ballarat-botanical-gardens.aspx"&gt;Ballarat Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/buninyong-botanical-gardens.aspx"&gt;Buninyong Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/mt-buninyong-scenic-reserve.aspx"&gt;Mt Buninyong Scenic Reserve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/wetlands.aspx"&gt;Wetlands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/street-gardens.aspx"&gt;Street Gardens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/bookings-and-maintenance.aspx"&gt;Maintenance&lt;/a&gt;&lt;/li&gt;
+&lt;li class="NavTitle arts"&gt;Places To Go&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.artgalleryofballarat.com.au"&gt;Art Gallery Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.hermaj.com/"&gt;Her Majestys Theatre&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle arts"&gt;&lt;a href="/lae/parks-and-playgrounds.aspx"&gt;Parks &amp;amp; Lakes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/parks-and-playgrounds.aspx"&gt;Parks Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/parks-and-playgrounds.aspx"&gt;Public Toilet Maps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/parks-and-playgrounds.aspx"&gt;Playground/BBQ Locations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballarat.vic.gov.au/pc/community-directory.aspx?Parent=120395&amp;Child=120733"&gt;Halls For Hire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/lakes/lake-wendouree.aspx"&gt;Lake Wendouree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/lakes/lake-learmonth.aspx"&gt;Lake Learmonth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/lakes/lake-burrumbeet.aspx"&gt;Lake Burrumbeet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/lakes/lake-esmond.aspx"&gt;Lake Esmond&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/lakes/rowing.aspx"&gt;Rowing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle arts"&gt;&lt;a href="/lae/events.aspx"&gt;Events &amp; Activities&lt;/a&gt; &lt;img src="/media/2302986/highlight.png" style="float:right;" alt="Popular"/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a AccessKey="W" href="/lae/events.aspx"&gt;What's On&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/events/add-your-event.aspx"&gt;Add Event To Calendar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/awards-and-ceremonies.aspx"&gt;Awards &amp; Ceremonies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/events/anzac-day.aspx"&gt;ANZAC Day&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballaratheritageweekend.com/"&gt;Heritage Weekend&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/events/harmonyfest.aspx"&gt;Harmony Fest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballaratbegoniafestival.com/"&gt;Begonia Festival&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/events/australia-day.aspx"&gt;Australia Day&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/events/mars-cycling-australia-road-championships.aspx"&gt;Cycling Championships&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/community-directory.aspx"&gt;Community Directory&lt;/a&gt;&lt;/li&gt;
+
+
+
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle arts"&gt;&lt;a href="/lae/sports.aspx"&gt;Sports and Grounds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/sports/soccer.aspx"&gt;Soccer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/walking-tracks"&gt;Walking Tracks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/sports/swimming-pools.aspx"&gt;Swimming Pools&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="/lae/lakes/rowing.aspx"&gt;Rowing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/sports/sporting-groups.aspx"&gt;Sporting Groups&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/sports/strategies.aspx"&gt;Recreation Strategy&lt;/a&gt;&lt;/li&gt;
+
+&lt;li class="NavTitle arts"&gt;Programs and Services&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/galleries/arts-team.aspx"&gt;Arts and Culture Team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/galleries/education-arts-culture.aspx"&gt;Arts Education&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/events/event-support.aspx"&gt;Events Support&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;/ul&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+
+&lt;!--  -------------------------------------------  Rates Roads and Animals --&gt;
+
+&lt;li class="BoxM property-top "&gt;
+&lt;a AccessKey="R" href="/ps" class="drop"&gt;&lt;img src="/media/1866319/menups.png" alt="Rates, Roads and Pets"&gt;&lt;/a&gt;
+
+&lt;div class="dropdown_5columns fader box_shadow property-top"&gt;
+&lt;div style="float:left;height:100%; width:3%;"&gt;
+&lt;img style="float:left;" src="http://www.ballarat.vic.gov.au/media/2280834/rateroads.png" alt="Rates, Roads and Pets Menu"&gt;
+&lt;/div&gt;
+
+&lt;div style="display:inline-block;float:left; height:15px; width:96%"&gt;
+&lt;/div&gt;
+
+	&lt;div style="display:inline-block;float:left;width:96%"&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle property"&gt;Roads &amp;amp; Parking&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/drainage.aspx"&gt;Drainage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/streetlighting.aspx"&gt;Streelighting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/street-cleaning.aspx"&gt;Street Cleaning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/parking.aspx"&gt;Parking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/asset-protection-vehicle-crossing.aspx"&gt;Driveway Crossing Permit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/trees.aspx"&gt;Trees&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/roads.aspx"&gt;Road &amp; Street Works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/roads/road-safety.aspx"&gt;Road Safety&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+	
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle property"&gt;Animals&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/animal-registration.aspx"&gt;Animal Registrations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/budget-reports-and-plans/domestic-animal-management-plan.aspx"&gt;Animal Management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/animal-registration/responsible-pet-ownership.aspx"&gt;Owning a Pet&lt;/a&gt;&lt;/li&gt;
+
+&lt;li class="NavTitle property"&gt;Rates&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/rates-and-valuations.aspx"&gt;About Your Rates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/rates-and-valuations/valuations-objections.aspx"&gt;Valuations &amp; Objections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/rates-and-valuations/rates-and-charges.aspx"&gt;2013/14 Rates &amp; Charges&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballarat.vic.gov.au/pbs/major-projects"&gt;Major Projects&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;/div&gt;
+
+
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle property"&gt;Popular Tools/Information&lt;img src="/media/2302986/highlight.png" style="float:right;" alt="Popular"/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/customerrequest.aspx"&gt;Lodge a Customer Request&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/payments.aspx"&gt;Make a Payment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/waste.aspx"&gt;Check Bin Collection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/animal-registration.aspx"&gt;Animal Registrations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/permits-and-forms.aspx"&gt;Find Forms/Guides&lt;/a&gt;&lt;/li&gt;
+&lt;li class="NavTitle property"&gt;Public Wellbeing&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health.aspx"&gt;Health Issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/residential-noise-and-odour.aspx"&gt;Noise Complaints&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/emergency-management.aspx"&gt;Emergency Management&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle property"&gt;Waste &amp;amp; Environment&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/waste.aspx"&gt;Check Bin Collection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/emergency-management/fire-restrictions-and-permits.aspx"&gt;Permit To Burn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/waste.aspx"&gt;Waste &amp;amp; Recycling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/waste/transfer-station.aspx"&gt;Waste Transfer Station&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/environment.aspx"&gt;Environment &amp;amp; Sustainability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/septic-tanks.aspx"&gt;Septic Tanks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/waste/landfill.aspx"&gt;Landfill&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/water.aspx"&gt;Water&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/waste/skip-bins.aspx"&gt;Skip Bins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+
+
+&lt;!--  -------------------------------------------  Sustainability &amp; Heritage --&gt;
+&lt;li class="BoxM sustain-top "&gt; 
+	&lt;a  AccessKey="P" class="drop" href="/sh"&gt;&lt;img src="/media/2280952/menush.png" alt="Sustainability &amp; Heritage"/&gt;&lt;/a&gt;
+	&lt;div class="dropdown_5columns fader box_shadow sustain-top" style="margin:auto auto;"&gt;
+	&lt;div style="float:left;height:100%; width:3%;"&gt;
+	&lt;img style="float:left;" src="/media/2280962/susther.png" alt="Sustainability &amp; Heritage Menu"&gt;
+	&lt;/div&gt;
+
+
+	
+
+&lt;div style="display:inline-block;float:left; height:10px; width:96%"&gt;
+
+&lt;/div&gt;
+
+
+	&lt;div style="display:inline-block;float:left;width:96%"&gt;
+
+&lt;div class="col_0"&gt;
+&lt;ul&gt;
+&lt;li class="NavTitle sustain"&gt;&lt;a href="/lae/gardens.aspx"&gt;Gardens &amp;amp; Reserves&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/ballarat-botanical-gardens.aspx"&gt;Ballarat Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/buninyong-botanical-gardens.aspx"&gt;Buninyong Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/mt-buninyong-scenic-reserve.aspx"&gt;Mt Buninyong Scenic Reserve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/wetlands.aspx"&gt;Wetlands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/street-gardens.aspx"&gt;Street Gardens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/bookings-and-maintenance.aspx"&gt;Maintenance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;nbsp;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;/div&gt;
+
+
+&lt;div class="col_1"&gt;
+&lt;ul&gt;
+&lt;li class="NavTitle sustain"&gt;Sustainability&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/environment.aspx"&gt;Our Environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/sustainability.aspx"&gt;Saving Energy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/programs-projects/community-gardens.aspx"&gt;Community Gardens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/environment/landcare-community-groups.aspx"&gt;Land Care&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/native-wildlife-vegetation.aspx"&gt;Wildlife and Vegetation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/major-projects"&gt;Major Projects&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+&lt;div class="col_1"&gt;
+&lt;ul&gt;
+&lt;li class="NavTitle sustain"&gt;&lt;a href="/sh/heritage.aspx"&gt;Heritage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/heritage/heritage-news.aspx"&gt;Heritage News&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/heritage/heritage-awards.aspx"&gt;Heritage Awards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/heritage/ballarat-heritage-database.aspx"&gt;Heritage Database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/heritage/heritage-advisory-committee.aspx"&gt;Advisory Committee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/exceptional-tree-register.aspx"&gt;Exceptional Tree Register&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/heritage/heritage-grants-and-loans.aspx"&gt;Grants and Loans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sh/heritage/heritage-project-and-studies.aspx"&gt;Projects and Studies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/statutory-planning/overlays/heritage-planning-protection.aspx"&gt;Heritage Overlay&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+
+
+
+
+
+&lt;div class="col_1"&gt;
+&lt;ul&gt;
+&lt;li class="NavTitle sustain"&gt;Waste Management&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/waste.aspx"&gt;Waste &amp;amp; Recycling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/waste/transfer-station.aspx"&gt;Waste Transfer Station&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/septic-tanks.aspx"&gt;Septic Tanks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/water.aspx"&gt;Water&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ps/waste/skip-bins.aspx"&gt;Skip Bins&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/li&gt;
+
+&lt;!--  -------------------------------------------  Visiting  --&gt;
+
+&lt;li class="BoxM visiting-top "&gt;
+&lt;a  AccessKey="V" href="/vs" class="drop"&gt;&lt;img src="/media/1866292/menuvs.png" alt="Visiting Ballarat"/&gt;&lt;/a&gt;
+&lt;div class="dropdown_5columns fader box_shadow visiting-top"&gt;
+&lt;div style="float:left;height:100%; width:3%;"&gt;
+&lt;img style="float:left;" src="/media/2280884/visitballarat.png" alt="Visiting Ballarat Menu"&gt;
+&lt;/div&gt;
+
+&lt;div style="display:inline-block;float:left;width:96%;height:10px"&gt;&lt;/div&gt;
+
+
+	&lt;div style="display:inline-block;float:left;width:96%"&gt;
+
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle visiting"&gt;Parks &amp; Lakes&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/parks-and-playgrounds.aspx"&gt;Parks Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/parks-and-playgrounds.aspx#tabs-2"&gt;Playground Maps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/parks-and-playgrounds.aspx#tabs-2"&gt;Toilet/BBQ Locations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/lakes/lake-wendouree.aspx"&gt;Lake Wendouree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/lakes/lake-learmonth.aspx"&gt;Lake Learmonth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/lakes/lake-burrumbeet.aspx"&gt;Lake Burrumbeet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/lakes/lake-esmond.aspx"&gt;Lake Esmond&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle visiting"&gt;&lt;a href="/lae/gardens.aspx"&gt;Gardens &amp;amp; Reserves&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/ballarat-botanical-gardens.aspx"&gt;Ballarat Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/buninyong-botanical-gardens.aspx"&gt;Buninyong Botanical Gardens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/mt-buninyong-scenic-reserve.aspx"&gt;Mt Buninyong Scenic Reserve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/wetlands.aspx"&gt;Wetlands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/gardens/street-gardens.aspx"&gt;Street Gardens&lt;/a&gt;&lt;/li&gt;
+&lt;li class="NavTitle visiting"&gt;&lt;a href="/ab"&gt;About Ballarat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ab"&gt;Profiles and Population&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ab/parliamentarians-for-ballarat.aspx"&gt;Ballarat Parlimentarians&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ab/international-relations.aspx"&gt;International Relations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ab/new-residents.aspx"&gt;New Residents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle visiting"&gt;&lt;a href="/ab"&gt;Popular Items&lt;/a&gt;&lt;img src="/media/2302986/highlight.png" style="float:right;" alt="Popular"/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ab/"&gt;About Ballarat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/events.aspx"&gt;What's On&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/parks-and-playgrounds.aspx#tabs-2"&gt;BBQs and Playgrounds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/lakes/lake-wendouree.aspx"&gt;Lake Wendouree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.visitballarat.com.au"&gt;Visit Ballarat Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.artgalleryofballarat.com.au/"&gt;Art Gallery Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.hermaj.com/"&gt;Her Majestys Theatre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://made.org/"&gt;Museum of Australian Democracy at Eureka&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;li&gt;&lt;a href="/lae/gardens.aspx"&gt;Gardens &amp;amp; Reserves&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/community-directory.aspx"&gt;Community Directory&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle visiting"&gt;&lt;a href="/lae/events.aspx"&gt;Events &amp; Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/australian-ex-pow-memorial.aspx"&gt;Australian Ex-POW Memorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/events/anzac-day.aspx"&gt;ANZAC Day&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballaratheritageweekend.com/"&gt;Heritage Weekend&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballaratbegoniafestival.com/"&gt;Begonia Festival&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/awards-and-ceremonies/australia-day-awards.aspx"&gt;Australia Day&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/events/harmonyfest.aspx"&gt;Harmony Fest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/events.aspx"&gt;Summer Sundays&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/li&gt;
+
+&lt;!--  -------------------------------------------  Business --&gt;
+
+&lt;li class="BoxM business-top "&gt;
+ &lt;a  AccessKey="B" href="/ed" class="drop"&gt;&lt;img src="/media/1866310/menued.png" alt="Ballarat Business and Economy"/&gt;&lt;/a&gt;
+&lt;div class="dropdown_5columns fader box_shadow business-top"&gt;
+&lt;div style="float:left;height:100%; width:3%;"&gt;
+&lt;img style="float:left;" src="/media/2280874/busballarat.png" alt="Ballarat Business and Economy Menu"&gt;
+&lt;/div&gt;
+
+&lt;div style="display:inline-block;float:left;width:96%;height:10px;"&gt;&lt;/div&gt;
+
+	&lt;div style="display:inline-block;float:left;width:96%"&gt;
+&lt;div class="col_1"&gt;&lt;ul&gt;
+
+&lt;li class="NavTitle business"&gt;Reports&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballarat.vic.gov.au/media/2229820/business_services_report_final.pdf"&gt;Business Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/industries-reports-and-strategies/education.aspx"&gt;Education&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/industries-reports-and-strategies/health-and-community-services.aspx"&gt;Health &amp;amp; Community Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/industries-reports-and-strategies/information-technology.aspx"&gt;IT &amp;amp; Communication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/industries-reports-and-strategies/manufacturing.aspx"&gt;Manufacturing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/industries-reports-and-strategies/retail.aspx"&gt;Retail&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/industries-reports-and-strategies/tourism.aspx"&gt;Tourism&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle business"&gt;Strategies&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.businessballarat.com/major-projects-strategies/cbd-strategy/"&gt;CBD Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/budget-reports-and-plans/economic-strategy.aspx"&gt;Economic Strategy 2010-2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/budget-reports-and-plans/ballarat-capital-of-western-victoria.aspx"&gt;Ballarat-Capital of Western Victoria&lt;/a&gt;&lt;/li&gt;
+&lt;li class="NavTitle business"&gt;Public Health&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/business-public-health/food-premises.aspx"&gt;Food Premises&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/business-public-health/aquatic-facilities.aspx/"&gt;Aquatic Facilities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/business-public-health/caravan-parks.aspx"&gt;Caravan Parks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/business-public-health/accommodation-and-health-premises.aspx/"&gt;Accommodation Premises&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/business-public-health/food-premises.aspx"&gt;Food Safety&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/public-health/business-public-health.aspx#tabs-2"&gt;Business Forms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle business"&gt;Popular Items&lt;img src="/media/2302986/highlight.png" style="float:right;" alt="Popular"/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/budget-reports-and-plans/ballarat-capital-of-western-victoria.aspx"&gt;Ballarat-Capital of Western Victoria&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/ballaratifg.aspx"&gt;Investment Facilitation Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballarat.vic.gov.au/pbs/major-projects"&gt;Major Projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/economic-projects-and-opportunities/ballarat-west-employment-zone.aspx"&gt;Ballarat West Employment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/city-strategy/ballarat-west.aspx"&gt;Ballarat West Growth Area&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/economic-projects-and-opportunities/health-precinct.aspx"&gt;Health Facilities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/economic-projects-and-opportunities/ballarat-airport.aspx"&gt;Ballarat Airport&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pbs/statutory-planning/planning-permits-types.aspx"&gt;Planning Permits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/mybusiness-resources/footpath-trading.aspx"&gt;Footpath Trading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/education/regional-certifying-body.aspx"&gt;Grampians RCB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle business"&gt;Programs&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/ballaratifg.aspx"&gt;Investment Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/mybusiness-resources.aspx"&gt;Resources and Connections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/new-residents-brochure.aspx"&gt;New Residents Program&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/education/skilled-migration-program.aspx"&gt;Skilled Migration Program&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ed/mybusiness-resources.aspx"&gt;Tenderwrite Program&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+	
+
+&lt;!--  -------------------------------------------  Council  --&gt;
+&lt;li class="BoxM council-top"&gt;
+&lt;a  AccessKey="O" href="/ac" class="drop"&gt;&lt;img src="/media/1866301/menuac.png" alt="Council Information"/&gt;&lt;/a&gt;
+
+&lt;div class="dropdown_5columns fader box_shadow council-top"&gt;
+&lt;div style="float:left;height:100%; width:3%;"&gt;
+&lt;img style="float:left;" src="/media/2280894/councilinfo.png" alt="Council Information Menu"&gt;	
+&lt;/div&gt;
+
+&lt;div style="display:inline-block;float:left;width:96%;height:10px;"&gt;
+&lt;/div&gt;
+
+	&lt;div style="display:inline-block;float:left;width:96%"&gt;
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle council"&gt;Publications&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/myballarat.aspx"&gt;myBallarat Magazine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/news.aspx"&gt;Media Releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/budget-reports-and-plans.aspx"&gt;Annual Reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/budget-reports-and-plans/council-plan.aspx"&gt;Council Plan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/budget-reports-and-plans/municipal-public-health-wellbeing-plan.aspx"&gt;Public Wellbeing Plan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/budget-reports-and-plans/budget.aspx"&gt;Budgets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle council"&gt;&lt;a href="/ac/connecting-to-council.aspx"&gt;Connecting To Council&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a AccessKey="Y" href="/ac/payments.aspx"&gt;Make a Payment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a AccessKey="X" href="/ac/connecting-to-council/contact-us.aspx"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/freedom-of-information.aspx#tabs-2"&gt;Compliants Contacts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/haveyoursay.aspx"&gt;Have Your Say&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/connecting-to-council/social-media.aspx"&gt;Social Media&lt;/a&gt;&lt;/li&gt;
+&lt;li class="NavTitle council"&gt;&lt;a href="/ab"&gt;About Ballarat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ab"&gt;Profiles and Population&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ab/parliamentarians-for-ballarat.aspx"&gt;Ballarat Parlimentarians&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ab/international-relations.aspx"&gt;International Relations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ab/new-residents.aspx"&gt;New Residents&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle council"&gt;Popular Items&lt;img src="/media/2302986/highlight.png" style="float:right;" alt="Popular"/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballarat.vic.gov.au/pbs/major-projects"&gt;Major Projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/careers.aspx"&gt;Careers / Employment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/councillors-and-wards.aspx"&gt;Your Council and Wards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/council-meetings-agendas.aspx"&gt;Council Meeting Dates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/council-meetings-agendas/council-agenda-minutes-2014.aspx"&gt;Agendas &amp; Minutes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/news.aspx"&gt;Media Releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a AccessKey="U" href="/haveyoursay.aspx"&gt;Have Your Say&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/tenders.aspx"&gt;Tenders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/lae/awards-and-ceremonies.aspx"&gt;Ceremonies &amp;amp; Awards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/public-notices.aspx"&gt;Public Notices&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;div class="col_1"&gt;&lt;ul&gt;
+&lt;li class="NavTitle council"&gt;Council Information&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pc/volunteering.aspx"&gt;Volunteering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/council-policies.aspx"&gt;Council Policies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/organisational-structure.aspx"&gt;Organisational Structure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/freedom-of-information.aspx"&gt;Freedom of Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/privacy.aspx"&gt;Privacy Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac.aspx#tabs-3"&gt;Statutory Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/local-laws.aspx"&gt;Local Laws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac"&gt;Local Governments Role&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/elections.aspx"&gt;Council Elections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ac/council-meetings-agendas/petitions-to-council.aspx"&gt;Petitions to Council&lt;/a&gt;&lt;/li&gt;
+
+
+
+&lt;/ul&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/li&gt;
+
+
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="PGTone" style="width:100%;height:10px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+    &lt;div class="wrapper"&gt;   
+
+
+
+
+    	&lt;!-- Scrollable --&gt;     
+        &lt;div class="scrollable"&gt;
+
+  
+&lt;div class="ContentBump"&gt;
+ &lt;div class="noMobile no-print" &gt;
+   &lt;div style="width:70%;float:left;" &gt;
+    &lt;div class="breadCrumb"&gt;&lt;ul&gt;&lt;li class="first PGTone"&gt;&lt;a href="http://www.ballarat.vic.gov.au"&gt;City of Ballarat Home Page&lt;/a&gt;&lt;/li&gt;&lt;li class="PGTone"&gt;&lt;a href="http://www.ballarat.vic.gov.au/lae.aspx"&gt;Leisure Arts and Entertainment&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="no-print"&gt;
+ &lt;!-- RSPEAK_START --&gt; 
+  &lt;div class="PGTone" style="width:100%;padding:5px;"&gt;
+&lt;div style="background: url('/media/2276610/events_785x102.jpg') no-repeat 100% 0%;padding:5px;"&gt;&lt;br/&gt;&lt;br/&gt;
+ &lt;div class="row"&gt;&lt;h1 class="pageTitle"&gt;Events&lt;/h1&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;!-- RSPEAK_STOP --&gt; 
+ &lt;/div&gt;
+
+        &lt;!-- Middle Content --&gt;
+        &lt;div class="MiddleContent"&gt;
+        	
+            &lt;!-- TabMenu --&gt;
+         
+     &lt;!-- RSPEAK_START --&gt; 
+
+        
+           
+
+&lt;div class="col-md-12" id="DoShare" style="display:none;border-right: 1px solid #C5BEBE;border-bottom: 1px solid #C5BEBE;border-left: 1px solid #C5BEBE;margin-bottom:10px;padding-bottom:10px;"&gt;
+&lt;div class="col-md-6 "&gt;
+&lt;p&gt;&lt;/p&gt;
+Share This Page :&lt;br/&gt;
+&lt;a href="https://twitter.com/share?url=http://www.ballarat.vic.gov.au/lae/events.aspx&amp;amp;text=Ballarat Council Share - Events&amp;amp;via=cityofballarat"&gt;&lt;img src="/media/1858387/twitter.png" alt="Share On Twitter"/&gt;&lt;/a&gt;
+&lt;a href="http://www.facebook.com/sharer.php?u=http://www.ballarat.vic.gov.au/lae/events.aspx&amp;amp;t=Just%20visited%20% - Events"&gt;&lt;img src="/media/1858378/fb.png" alt="Share On Facebook"/&gt;&lt;/a&gt;
+&lt;a href="https://plus.google.com/share?url=http://www.ballarat.vic.gov.au/lae/events.aspx"&gt;&lt;img src="/media/2410201/google_.png" alt="Share On Google"/&gt;&lt;/a&gt;
+&lt;a href="http://www.linkedin.com/shareArticle?mini=true&amp;amp;url=http://www.ballarat.vic.gov.au/lae/events.aspx&amp;amp;title=Just%20visited Events%20on%20City of Ballarat."&gt;&lt;img src="/media/2410211/linkedin.png" alt="Share On LinkedIn"/&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="col-md-6 "&gt;
+&lt;p&gt;&lt;/p&gt;
+Follow the City of Ballarat :&lt;br/&gt;
+ &lt;a href="https://twitter.com/cityofballarat"&gt;&lt;img src="http://www.ballarat.vic.gov.au/media/1858387/twitter.png" alt="Follow Us On Twitter"/&gt;&lt;/a&gt;
+ &lt;a href="http://www.facebook.com/ballaratcity"&gt;&lt;img src="http://www.ballarat.vic.gov.au/media/1858378/fb.png" alt="Like Our Facebook Page and Stay Updated"/&gt;&lt;/a&gt;
+ &lt;a href="https://www.linkedin.com/company/ballarat-city-council"&gt;&lt;img src="/media/2410211/linkedin.png" alt="Join Us on LinkedIn"/&gt;&lt;/a&gt;
+ &lt;a href="http://www.instagram.com/cityofballarat"&gt;&lt;img src="http://www.ballarat.vic.gov.au/media/1858396/instagram.png" alt="Snaps of Our City On Instagram"/&gt;&lt;/a&gt;
+&lt;a href="http://www.youtube.com/user/TheCityofBallarat"&gt;&lt;img src="http://www.ballarat.vic.gov.au/media/1858414/youtube.png" alt="Visit our YouTube Channel"/&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div style="width:120px;float:right;"&gt;
+&lt;div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve"&gt;
+
+&lt;a class="rsbtn_play" data-rsevent-id="rs_293951" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app.eu.readspeaker.com/cgi-bin/rsent?customerid=6499&amp;lang=en_au&amp;voice=Karen&amp;speed=100&amp;readid=rs_read_this&amp;url=http://www.ballarat.vic.gov.au/lae/events.aspx"&gt;
+
+&lt;span class="rsbtn_left rsimg rspart"&gt;
+&lt;span class="rsbtn_text"&gt;
+&lt;span&gt;Listen&lt;/span&gt;
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/a&gt;
+&lt;span class="rsbtn_right rsimg rsplay rspart"&gt;&lt;/span&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="PContact" style="float:right;"&gt;
+&lt;p style="text-align:right;padding-right:10px;"&gt;
+&lt;strong&gt;Contact : &lt;/strong&gt;&lt;a href=" mailto:webmaster@ballarat.vic.gov.au "&gt;Events Calendar&lt;/a&gt;&lt;br/&gt;
+&lt;a href="tel:03 5320 5500  "&gt;P. 03 5320 5500 &lt;/a&gt; 
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul class="nav nav-tabs"  id="custom-tabs-4" &gt;
+
+
+&lt;li&gt;&lt;div &gt;&lt;a href="#"&gt;&lt;img onclick="$('#DoShare').toggle('slow');" id="btShare" src="/media/2410191/sharetab.png" alt="Share This Page"/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class="active"&gt;&lt;a href="#custom-tab-0-tab1"  data-toggle="tab"&gt;Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#custom-tab-0-tab2" data-toggle="tab"&gt;Annual Events&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#custom-tab-0-tab3" data-toggle="tab"&gt;Public Holdiays&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+
+
+
+    &lt;div class="tab-content"&gt;
+
+ &lt;div id="custom-tab-0-tab1" class="tab-pane active"&gt;&lt;br /&gt;
+ &lt;p&gt;&lt;a href="/lae/events/school-holidays.aspx"&gt;&lt;img src="/media/2390131/midyearhoidays.jpg" alt="Midyear Hoidays"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p class="InfoBox PGTone"&gt;&lt;strong&gt;&lt;a href="http://www.ballarat.vic.gov.au/lae/events/add-your-event.aspx" title="Add Your Event"&gt;Add Your Event!&lt;/a&gt;&lt;/strong&gt; to the City of Ballarat online calendar.&lt;/p&gt;
+&lt;p&gt;Ballarat hosts a huge number of events and festivals throughout the year which celebrate the best of the region. Visitors from around the nation gather to enjoy Ballarat's famous hospitality, arts and culture, beautiful gardens, historic buildings and fascinating heritage. &amp;nbsp;&lt;/p&gt;
+&lt;div style="display: block;"&gt;
+&lt;p class="ballarat_h2"&gt;Whats On.&lt;/p&gt;
+
+
+
+&lt;div &gt;
+&lt;div id="ShowSection" class="BoxCurve20Shade" &gt;
+&lt;div id="Itemsa"&gt;&lt;div id='Event_0' class="EventNoShow"&gt;&lt;div id='EventDetails_0' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;For Auld Lang Syne at the Art Gallery of Ballarat&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_0"&gt;Art Gallery of Ballarat 40 Lydiard Street North Ballarat VIC 3350&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Fri, Apr 11, 2014 12:00 AM - Sun, Jul 27, 2014 11:59 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Celebrate the role played by Scots in development of the Australian nation from the First Fleet to Federation at Australia's oldest and largest regional gallery.&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Emily Osmond&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="https://www.facebook.com/ArtGalleryBallarat?fref=ts"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="http://http://balgal.com/"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:emilyosmond@brt.org.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event #ballarat #visitballarat #balgal For Auld Lang Syne at the Art Gallery of Ballarat http://www.ballarat.vic.gov.au/lae/events.aspx?id=31013"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_1' class="EventNoShow"&gt;&lt;div id='EventDetails_1' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Spectacular Saturn - School Holiday Program&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_1"&gt;Ballarat Observatory 439 Cobden St Entry from Magpie St&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Tue, Jul 1, 2014 04:00 PM - Sat, Jul 12, 2014 07:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;SATURN - Strap yourself in and take a spectacular journey into our solar system to visit Saturn.&lt;br/&gt;View Saturn through a telescope, and see the beautiful rings. Activities for children, and 3D Movies.&lt;br/&gt;&lt;br/&gt;Bookings essential on 03 5332 7526&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Judith Bailey&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="https://www.facebook.com/pages/Ballarat-Observatory/123704284364399"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="http://http://observatory.ballarat.net"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:bas@cbl.com.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event Spectacular Saturn - School Holiday Program http://www.ballarat.vic.gov.au/lae/events.aspx?id=33099"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_2' class="EventNoShow"&gt;&lt;div id='EventDetails_2' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Community Sports Camps Football and Netball Clinics&lt;/div&gt;&lt;div class="SummaryCalTitle" &gt;Alfredton Oval, Cuthberts Road, Alfredton&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Wed, Jul 2, 2014 12:00 AM - Wed, Jul 2, 2014 11:59 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Community Sports Camps is holding a one day football and netball program for primary school aged children on the 2nd of July. Held at Alfredton Oval you can have an entire day filled with either netball or football. &lt;br/&gt;&lt;br/&gt;- Great chance to improve skills, have fun and make new friends&lt;br/&gt;- Qualified &amp; enthusiastic coaches&lt;br/&gt;- Morning &amp; afternoon tea provided&lt;br/&gt;- Giveaways &amp; prizes to all participants&lt;br/&gt;&lt;br/&gt;To register head to www.communitycamps.com.au or call 1300 562 571.&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Community Sports Camps&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="http://www.communitycamps.com.au"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:info@communitycamps.com.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event Community Sports Camps Football and Netball Clinics http://www.ballarat.vic.gov.au/lae/events.aspx?id=32850"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_3' class="EventNoShow"&gt;&lt;div id='EventDetails_3' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;School Holiday Pottery Class – Clay Thongs&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_3"&gt;ClayMotion 37Tierneys Rd, Dunnstown 3352&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Wed, Jul 2, 2014 02:00 PM - Wed, Jul 2, 2014 04:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt; School Holiday Program – Ballarat&lt;br/&gt;CLAY THONGS&lt;br/&gt;&lt;br/&gt;Wednesday 8th April 10-12noon $32.00 including materials and firing.&lt;br/&gt;&lt;br/&gt;This project is a tactile project encouraging the children to ‘squelch’ their feet in the clay to make imprints for a set of clay thongs.&lt;br/&gt;&lt;br/&gt;Children will roll out clay, imprint their feet into the soft clay, cut out the shape of their feet, and make their imprints into thongs.&lt;br/&gt;LIMITED NUMBERS – ENROL ONLINE OR PHONE
+&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Dawn WHitehand&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="https://www.facebook.com/pages/ClayMotion/116325345099724"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="mailto:dawn@claymotion.com.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event #schoolholiays #kids #artcalsses #ballarat School Holiday Pottery Class – Clay Thongs http://www.ballarat.vic.gov.au/lae/events.aspx?id=33007"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_4' class="EventNoShow"&gt;&lt;div id='EventDetails_4' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Death In July festival&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_4"&gt;Musuem of Australian Democracy at Eureka Stawell Street South, Ballarat&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Fri, Jul 4, 2014 06:00 PM - Sun, Jan 5, 2014 05:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Death In July festival is a celebration of Australian women’s crime writing to get your blood pumping!&lt;br/&gt;&lt;br/&gt;A stellar line-up of authors will appear at the festival to speak on a fascinating range of topics including the CSI effect and YA crime writing. Guest writers include Leigh Redhead, Angela Savage, Honey Brown, Ellie Marney, Simmone Howell and many more. &lt;br/&gt;&lt;br/&gt;The festival will be held at the Museum of Australian Democracy at Eureka across the weekend of 4 – 5 July, starting with a lovely launch evening on the Friday night featuring a keynote from guest author Angela Savage.&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Sally Williams&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="http://www.facebook.com/BallaratWriters"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="http://www.ballaratwriters.com"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:publicity@ballaratwriters.com"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event @ballaratwriter Death In July festival http://www.ballarat.vic.gov.au/lae/events.aspx?id=32754"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_5' class="EventNoShow"&gt;&lt;div id='EventDetails_5' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;School Holiday Pottery Class – Pencil Holder&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_5"&gt;ClayMotion 37Tierneys Rd, Dunnstown 3352&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Wed, Jul 9, 2014 10:00 AM - Wed, Jul 9, 2014 12:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;School Holiday Program- Ballarat &lt;br/&gt;PENCIL HOLDERS pencil holder&lt;br/&gt;Wednesday 16th April 2-4pm $32.00 including materials and firing.&lt;br/&gt;&lt;br/&gt;Children will create the pencil holder by using the ‘pinching’ method. Techniques for modelling and joining clay will also be explored. The pencil holder will then be decorated by hand moulding additions, such as eyes and tails, and will then be painted using brightly coloured slips.&lt;br/&gt;&lt;br/&gt;LIMITED NUMBERS: ENROL ONLINE OR PHONE
+&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Dawn WHitehand&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="https://www.facebook.com/pages/ClayMotion/116325345099724"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="http://www.claymotion.com.au"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:dawn@claymotion.com.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event #ballarat #kids #schoolholidays #artclasses School Holiday Pottery Class – Pencil Holder http://www.ballarat.vic.gov.au/lae/events.aspx?id=33008"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_6' class="EventNoShow"&gt;&lt;div id='EventDetails_6' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;25th Eureka Arms and Militaria Fair&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_6"&gt;Wendouree Sports and Events Centre Norman St, Wendouree, Ballarat&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sat, Jul 12, 2014 09:00 AM - Sun, Jul 13, 2014 09:00 AM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Arms and Militaria Fair,  140 tables of dealers.  Living history groups, Antique and modern arms, Medals, Books, Knives and swords, Hunting and shooting supplies, Collectable ammo, Uniforms, Optics, Onsite catering, family friendly event.&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Nick Smith&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="http://www.ballaratarms.com.au"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:baamcs@activ8.net.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event 25th Eureka Arms and Militaria Fair http://www.ballarat.vic.gov.au/lae/events.aspx?id=32851"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_7' class="EventNoShow"&gt;&lt;div id='EventDetails_7' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Alliance Française de Ballarat Bastille Day Dinner&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_7"&gt;G Place 102 English Street (off Grant Street)&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sat, Jul 12, 2014 07:00 PM - Sat, Jul 12, 2014 11:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Annual Dinner to celebrate all things French. Authentic French food by local chefs par excellence Lakitchen2u. Entertainment with a French flavour. &lt;br/&gt;All welcome. &lt;br/&gt;This is an event for the whole community and speaking French is welcome but entirely optional. &lt;br/&gt;
+For details, please visit the AF website at http://afballarat.com.au.&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Bernadette Brouwers&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="http://http://afballarat.com.au"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:bbmp16@bigpond.com"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event Alliance Française de Ballarat Bastille Day Dinner http://www.ballarat.vic.gov.au/lae/events.aspx?id=31755"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_8' class="EventNoShow"&gt;&lt;div id='EventDetails_8' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Buninyong Pre - School -  50th Anniversary - Gala Ball&lt;/div&gt;&lt;div class="SummaryCalTitle" &gt;Buninyong Golf Club, Buninyong&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sat, Jul 12, 2014 07:30 PM - Sat, Jul 12, 2014 11:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;To Celebrate 50 years of operations of the Buninyong Pre-School, we are holding a Gala Ball to celebrate.  We would like all past families, teachers and students to attend as well the Buninyong Community.  Tickets are $45, and can be purchased through Foundation Legal Buninyong or online at &lt;br/&gt;https://www.stickytickets.com.au/17683 &lt;br/&gt;&lt;br/&gt;  We have a local band (5 piece band) playing called Vinyl Tapp.  &lt;br/&gt;&lt;br/&gt;Your new memories can be captured in our photo booth, as well as a display of the past 50 years.  Nibbles provided and drinks at Bar prices.    Time 7.30 - 11.30pm&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Prue Orchard&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="https://www.facebook.com/groups/1419564708293463/"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="http://https://www.stickytickets.com.au/17683"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:porchard@chw.net.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event Buninyong Buninyong Pre - School -  50th Anniversary - Gala Ball http://www.ballarat.vic.gov.au/lae/events.aspx?id=32873"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_9' class="EventNoShow"&gt;&lt;div id='EventDetails_9' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;At Last: The Etta James Story&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_9"&gt;Her Majesty's 17 Lydiard Street, South Ballarat &lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sat, Jul 12, 2014 08:00 PM - Sat, Jul 12, 2014 10:30 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Following a smash-hit national tour and back by popular demand the unforgETTAble sounds of Vika Bull and the Essential R &amp; B Band will grace the stage of Her Majesty’s in Ballarat this July 12 to delight audiences with the story of one of the most influential soul singers of all times -Etta James.&lt;br/&gt;&lt;br/&gt;At Last – The Etta James Story is a two-hour narrative concert starring Vika Bull. Vika brings her heart, soul and funk to tell the story of Etta’s turbulent life and sing her best loved songs including ‘Tell Mama,’, ‘Something’s Got A Hold On Me’, ‘Pushover’, the heartrending ‘I’d Rather Go Blind’, her iconic signature song ‘At Last’ and more. Vika Bull will be joined on stage by the sizzling hot The Essential R &amp; B Band that will get you out of your seat and dancing in the aisles!&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Lisa&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="http://www.facebook.com/AtLastTheEttaJamesStory"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="http://http://hermaj.com/what-s-on/events/at-last-the-etta-james-story"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:lisa@room8.com"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event @AtLastEttaJames  At Last: The Etta James Story http://www.ballarat.vic.gov.au/lae/events.aspx?id=32962"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_10' class="EventNoShow"&gt;&lt;div id='EventDetails_10' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;From Africa WIth Love&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_10"&gt;Backspace Gallery Huyghue House, Alfred Deakin Place @Camp Street &amp; Police Lane, Ballarat Vic 3350&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Fri, Jul 18, 2014 06:00 PM - Sun, Jul 27, 2014 04:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;From Africa With Love brings us photographs by Shanna Love that touch on the emotional bonds we feel toward animals whose destiny is by no means certain.&lt;br/&gt;&lt;br/&gt;Opening event 18th July 6pm-8pm and continuing until Sunday 27th, open 12pm-4pm daily.&lt;br/&gt;&lt;br/&gt;Free Admission&lt;br/&gt;&lt;br/&gt;
+From Africa With Love also provides us with a window into the relationships between the animals themselves. Whether showing affection, or expressing anger or sadness, Shanna strives to capture images of her subjects that evoke emotions in us, as well.&lt;br/&gt;&lt;br/&gt;Taking African wildlife photography beyond mere pictures of Hemingway’s Big Five, Love aims to have us read sentiment into her portraits, creating a strong connection that allows us to associate with the images on a personal level.&lt;br/&gt;&lt;br/&gt;Since working with a conservation organisation, Shanna Love has become painfully aware of the dire situation that many of these amazing animals face through the myriad pressures of climate change, diminishing habitat, economic demands, political and social unrest.&lt;br/&gt;&lt;br/&gt;From Africa With Love is her response to this: using an exhibition of her photographs to raise awareness of the rapid decline of many of the species seen here. While we will easily connect with her images on a visceral or aesthetic level, it is the data accompanying each image that drives the message home of how few of these magnificent beasts still survive in the wild.&lt;br/&gt;&lt;br/&gt;Now an avid wildlife photographer, Shanna Love sees herself as both creating sumptuous images of exotic animals that speak to us through instinct, and fostering the will to protect the creatures she loves so well.&lt;br/&gt;&lt;br/&gt;
+&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Shanna Love&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="http://www.lovewildlifephotography.com"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:shanna@lovewildlifephotography.com"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event From Africa WIth Love http://www.ballarat.vic.gov.au/lae/events.aspx?id=33214"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_11' class="EventNoShow"&gt;&lt;div id='EventDetails_11' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Writing workshop with Toni Jordan&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_11"&gt;Musuem of Australian Democracy at Eureka Stawell Street South, Ballarat&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sat, Jul 19, 2014 11:00 AM - Sat, Jul 19, 2014 01:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Ballarat Writers presents a writing workshop on dialogue with author Toni Jordan.&lt;br/&gt;&lt;br/&gt;The workshop will cover: Why dialogue is not speech; How to transmit the boring things your characters say; What is subtext in dialogue, and why it matters; The art of minimalism in dialogue tags; Why adverbs are the work of the devil.&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Sally Williams&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="http://www.facebook.com/BallaratWriters"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="http://http://ballaratwriters.com/workshops/july-dialogue-with-toni-jordan/"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:publicity@ballaratwriters.com"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event @ballaratwriter Writing workshop with Toni Jordan http://www.ballarat.vic.gov.au/lae/events.aspx?id=32758"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_12' class="EventNoShow"&gt;&lt;div id='EventDetails_12' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Community Fun Day on the Yarrowee&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_12"&gt;Redan Wetlands,  Orion Street, Sebastopol&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sun, Jul 20, 2014 10:00 AM - Sun, Jul 20, 2014 01:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Community Fun Day at Redan Wetlands (Orion St, Sebastopol) on Sunday 20th July, 10am – 1pm. The day includes interactive displays on Ballarat’s wildlife and flora. Stormwater and Water Watch displays, listen to talks on the history of the Yarrowee River. &lt;br/&gt;&lt;br/&gt;Help us clean-up Ballarat’s favourite river, hand in a bag of rubbish for entry into our free raffle. Stay for lunch, free hot soup provided. For further information or to RSVP please contact Kate Constance from the Leigh Catchment Group on 0409 585 998 or e-mail: katelcg@iinet.net.au&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Kate Constance&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="http://www.leighcatchmentgroup.org"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:katelcg@iinet.net.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event Community Fun Day on the Yarrowee http://www.ballarat.vic.gov.au/lae/events.aspx?id=33041"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_13' class="EventNoShow"&gt;&lt;div id='EventDetails_13' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Fun Day on the Yarrowee River&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_13"&gt;Redan Wetlands Orion Street, Sebastopol&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sun, Jul 20, 2014 10:00 AM - Sun, Jul 20, 2014 01:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Community Fun Day at Redan Wetlands Orion St, Sebastopol. 10am – 1pm This day forms part of the ‘Breathing Life Back into the Yarrowee’ project. This project aims to improve the Yarrowee River by undertaking weed control, revegetation, improving facilities and engaging the community on river health issues. Details of the day include:&lt;br/&gt;The community will have the opportunity to clean-up the Yarrowee, by collecting rubbish around the Redan Wetlands.  Participants will go into the draw to win a prize pack. 
+There will be educational displays on waterway health by the Corangamite Catchment Management Authority &lt;br/&gt;&lt;br/&gt;Interactive displays by Ray Draper (Ballarat Ecologist) on Ballarat fauna&lt;br/&gt;&lt;br/&gt;Free soup will be provided at 12:00 for lunch&lt;br/&gt;&lt;br/&gt;Talks by Ballarat Environment Network on the history of the Yarrowee and a talk by the Ballarat Field Naturalists on Ballarat flora. These talks will commence from 12:15
+Day closes at 1pm&lt;br/&gt;
+&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Kate Constance&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="http://www.leighcatchmentgroup.org"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:katelcg@iinet.net.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event Fun Day on the Yarrowee River http://www.ballarat.vic.gov.au/lae/events.aspx?id=33155"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_14' class="EventNoShow"&gt;&lt;div id='EventDetails_14' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Bring Him Home - Ballarat&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_14"&gt;Brown Hill Hall Humffray St North, Ballarat&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sun, Jul 20, 2014 03:00 PM - Sun, Jul 20, 2014 05:00 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;The Voice Professional presents Jason Wasley "Bring Him Home"
+An afternoon of classics and favourites, light opera arias, and popular songs from great musicals&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Sharon Hatton&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="http://www.facebook.com/thevoiceprofessional"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="http://www.thevoiceprofessional.com.au"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:thevoiceprofessional71@gmail.com"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event Bring Him Home - Ballarat http://www.ballarat.vic.gov.au/lae/events.aspx?id=32867"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_15' class="EventNoShow"&gt;&lt;div id='EventDetails_15' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Royal South Street Competition&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_15"&gt;Her Majesty's Theatre  17 Lydiard Street Sth Ballarat &lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Mon, Jul 28, 2014 12:00 AM - Sun, Nov 2, 2014 11:59 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Royal South Street Competitions - 2014&lt;br/&gt;
+As a well established Australian cultural event, the Royal South Street Competitions run for 14 weeks annually hosting 40,000 onstage appearances. The competitors showcase twelve theatrical disciplines including voice, music, and movement.  The Society utilise multiple venues throughout Ballarat, including the historic Her Majesty's Theatre. Come along and be entertained. View daily program information, session times and ticket prices at www.royalsouthstreet.com.au. Come along and be entertained.
+&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Emma&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="https://www.facebook.com/royalsouthstreet"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="http://http://www.royalsouthstreet.com.au/"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:info@royalsouthstreet.com.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event Royal South Street Competition http://www.ballarat.vic.gov.au/lae/events.aspx?id=31655"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id='Event_16' class="EventNoShow"&gt;&lt;div id='EventDetails_16' class="SummaryCalFull"&gt;&lt;div class="ballarat_bbar"&gt;Royal South Street Debating Challenge Cup&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_16"&gt;Town Hall - Council Chambers  Sturt Street Ballarat &lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Mon, Jul 28, 2014 12:00 AM - Mon, Aug 25, 2014 11:59 PM&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;When: 28th July – 1st August heats. Semi final 18th August. Finals 25th August.&lt;br/&gt;
+&lt;br/&gt;
+The Debating Challenge Cup promises to be an exciting part of our program for 2014 with debates being battled out again in the City of Ballarat Council Chambers. Primary and Secondary School aged students will be using their best debating skills to debate interesting topics. &lt;br/&gt;
+&lt;br/&gt;
+The grand final debates promise some fantastic debates which can be enjoyed by audiences of all ages.  View daily program information, session times and ticket prices at www.royalsouthstreet.com.au  &lt;br/&gt;Come along and be entertained. 
+&lt;/div&gt;&lt;div class="SummaryCalDesc"&gt;Contact : Emma&lt;/div&gt;&lt;div class="Actions"&gt;&lt;a href="https://www.facebook.com/royalsouthstreet"&gt;Visit Facebook Page&amp;nbsp;&lt;img alt=" Facebook " width="24px" height="24px" src="/media/1332230/facebook.png"&gt;&lt;/a&gt;&lt;a href="http://http://www.royalsouthstreet.com.au/"&gt;Website&amp;nbsp;&lt;img alt=" Website" width="24px" height="24px" src="/media/1332240/globe.png"&gt;&lt;/a&gt;&lt;a href="mailto:info@royalsouthstreet.com.au"&gt;Email&amp;nbsp;&lt;img alt=" Email" width="24px" height="24px" src="/media/1332225/message.png"&gt;&lt;/a&gt;&lt;a href="http://twitter.com/home/?status=Check out this #ballarat #event Royal South Street Debating Challenge Cup http://www.ballarat.vic.gov.au/lae/events.aspx?id=31657"&gt;Tweet Event!&amp;nbsp;&lt;img alt=" Tweet About This Event " width="24px" height="24px" src="/media/1332235/twitter.png"&gt;&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div id="map" style="display:none;height:300px; width:700px; border:1px solid #000000;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2&gt;July 2014&lt;/h2&gt;
+
+&lt;div class="Next"&gt;&lt;p&gt;&lt;a href="?Act=Goto&amp;Month=8&amp;Year=2014"&gt;&lt;img style="float: right;" src="/media/1326295/right_circular.png" alt="Next Button" /&gt; Go to August 2014&amp;nbsp;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;div class="Previous"&gt;&lt;a href="?Act=Goto&amp;Month=6&amp;Year=2014"&gt;&lt;img style="float: left;" src="/media/1326300/left_circular.png" alt="Previous Button" /&gt;&amp;nbsp; Go to June 2014&lt;/a&gt;&lt;/div&gt;
+&lt;div class="well" style="color:black;"&gt;Now On in July 2014&lt;/div&gt;
+&lt;ul class="NewsShort"&gt;
+&lt;li id='mEvent_0'&gt;&lt;div id='mEventDetails_0' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Now On&lt;/p&gt;&lt;/div&gt;&lt;div class="community CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(0);"&gt;For Auld Lang Syne at the Art Gallery of Ballarat&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_0"&gt;Art Gallery of Ballarat 40 Lydiard Street North Ballarat VIC 3350&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Fri, Apr 11, 2014 12:00 AM - Sun, Jul 27, 2014 11:59 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(0);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_1'&gt;&lt;div id='mEventDetails_1' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;On Today!&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class="community CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(1);"&gt;Spectacular Saturn - School Holiday Program&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_1"&gt;Ballarat Observatory 439 Cobden St Entry from Magpie St&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Tue, Jul 1, 2014 04:00 PM - Sat, Jul 12, 2014 07:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(1);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_6'&gt;&lt;div id='mEventDetails_6' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;On Today!&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class="sustain CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(6);"&gt;25th Eureka Arms and Militaria Fair&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_6"&gt;Wendouree Sports and Events Centre Norman St, Wendouree, Ballarat&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sat, Jul 12, 2014 09:00 AM - Sun, Jul 13, 2014 09:00 AM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(6);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="well" style="color:black;"&gt;Coming Up in July 2014&lt;/div&gt;
+
+&lt;ul class="NewsShort"&gt;
+&lt;li id='mEvent_7'&gt;&lt;div id='mEventDetails_7' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Sat&lt;br/&gt;12&lt;/p&gt;&lt;/div&gt;&lt;div class="community CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(7);"&gt;Alliance Française de Ballarat Bastille Day Dinner&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_7"&gt;G Place 102 English Street (off Grant Street)&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sat, Jul 12, 2014 07:00 PM - Sat, Jul 12, 2014 11:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(7);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_8'&gt;&lt;div id='mEventDetails_8' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Sat&lt;br/&gt;12&lt;/p&gt;&lt;/div&gt;&lt;div class="community CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(8);"&gt;Buninyong Pre - School -  50th Anniversary - Gala Ball&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" &gt;Buninyong Golf Club, Buninyong&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sat, Jul 12, 2014 07:30 PM - Sat, Jul 12, 2014 11:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(8);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_9'&gt;&lt;div id='mEventDetails_9' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Sat&lt;br/&gt;12&lt;/p&gt;&lt;/div&gt;&lt;div class="arts CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(9);"&gt;At Last: The Etta James Story&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_9"&gt;Her Majesty's 17 Lydiard Street, South Ballarat &lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sat, Jul 12, 2014 08:00 PM - Sat, Jul 12, 2014 10:30 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(9);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_10'&gt;&lt;div id='mEventDetails_10' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Fri&lt;br/&gt;18&lt;/p&gt;&lt;/div&gt;&lt;div class="arts CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(10);"&gt;From Africa WIth Love&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_10"&gt;Backspace Gallery Huyghue House, Alfred Deakin Place @Camp Street &amp; Police Lane, Ballarat Vic 3350&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Fri, Jul 18, 2014 06:00 PM - Sun, Jul 27, 2014 04:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(10);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_11'&gt;&lt;div id='mEventDetails_11' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Sat&lt;br/&gt;19&lt;/p&gt;&lt;/div&gt;&lt;div class="arts CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(11);"&gt;Writing workshop with Toni Jordan&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_11"&gt;Musuem of Australian Democracy at Eureka Stawell Street South, Ballarat&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sat, Jul 19, 2014 11:00 AM - Sat, Jul 19, 2014 01:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(11);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_12'&gt;&lt;div id='mEventDetails_12' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Sun&lt;br/&gt;20&lt;/p&gt;&lt;/div&gt;&lt;div class="community CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(12);"&gt;Community Fun Day on the Yarrowee&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_12"&gt;Redan Wetlands,  Orion Street, Sebastopol&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sun, Jul 20, 2014 10:00 AM - Sun, Jul 20, 2014 01:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(12);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_13'&gt;&lt;div id='mEventDetails_13' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Sun&lt;br/&gt;20&lt;/p&gt;&lt;/div&gt;&lt;div class="community CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(13);"&gt;Fun Day on the Yarrowee River&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_13"&gt;Redan Wetlands Orion Street, Sebastopol&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sun, Jul 20, 2014 10:00 AM - Sun, Jul 20, 2014 01:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(13);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_14'&gt;&lt;div id='mEventDetails_14' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Sun&lt;br/&gt;20&lt;/p&gt;&lt;/div&gt;&lt;div class="arts CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(14);"&gt;Bring Him Home - Ballarat&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_14"&gt;Brown Hill Hall Humffray St North, Ballarat&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Sun, Jul 20, 2014 03:00 PM - Sun, Jul 20, 2014 05:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(14);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_15'&gt;&lt;div id='mEventDetails_15' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Mon&lt;br/&gt;28&lt;/p&gt;&lt;/div&gt;&lt;div class="arts CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(15);"&gt;Royal South Street Competition&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_15"&gt;Her Majesty's Theatre  17 Lydiard Street Sth Ballarat &lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Mon, Jul 28, 2014 12:00 AM - Sun, Nov 2, 2014 11:59 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(15);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_16'&gt;&lt;div id='mEventDetails_16' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Mon&lt;br/&gt;28&lt;/p&gt;&lt;/div&gt;&lt;div class="arts CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(16);"&gt;Royal South Street Debating Challenge Cup&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_16"&gt;Town Hall - Council Chambers  Sturt Street Ballarat &lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Mon, Jul 28, 2014 12:00 AM - Mon, Aug 25, 2014 11:59 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(16);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+&lt;div class="well" style="color:black;"&gt;Been&lt;/div&gt;
+
+&lt;ul class="NewsShort"&gt;
+&lt;li id='mEvent_2'&gt;&lt;div id='mEventDetails_2' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Over&lt;/p&gt;&lt;/div&gt;&lt;div class="arts CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(2);"&gt;Community Sports Camps Football and Netball Clinics&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" &gt;Alfredton Oval, Cuthberts Road, Alfredton&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Wed, Jul 2, 2014 12:00 AM - Wed, Jul 2, 2014 11:59 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(2);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_3'&gt;&lt;div id='mEventDetails_3' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Over&lt;/p&gt;&lt;/div&gt;&lt;div class="community CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(3);"&gt;School Holiday Pottery Class – Clay Thongs&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_3"&gt;ClayMotion 37Tierneys Rd, Dunnstown 3352&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Wed, Jul 2, 2014 02:00 PM - Wed, Jul 2, 2014 04:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(3);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_4'&gt;&lt;div id='mEventDetails_4' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Over&lt;/p&gt;&lt;/div&gt;&lt;div class="arts CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(4);"&gt;Death In July festival&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_4"&gt;Musuem of Australian Democracy at Eureka Stawell Street South, Ballarat&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Fri, Jul 4, 2014 06:00 PM - Sun, Jan 5, 2014 05:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(4);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li id='mEvent_5'&gt;&lt;div id='mEventDetails_5' &gt;&lt;div style="float:right;width:45px;height:45px;background:#EFEFEF;"&gt;&lt;p style='font-size:14px;font-weight:bold;text-align:center;line-height: 1em;'&gt;Over&lt;/p&gt;&lt;/div&gt;&lt;div class="community CalTitle" &gt;&lt;a href="#" onclick="loadPopupBox(5);"&gt;School Holiday Pottery Class – Pencil Holder&lt;/a&gt;&lt;/div&gt;&lt;div class="SummaryCalTitle" id="Location_5"&gt;ClayMotion 37Tierneys Rd, Dunnstown 3352&lt;/div&gt;&lt;div class="SummaryCalTime"&gt;Wed, Jul 9, 2014 10:00 AM - Wed, Jul 9, 2014 12:00 PM&lt;/div&gt;&lt;a href="#" onclick="loadPopupBox(5);"&gt;More Information&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="well"&gt;
+&lt;a href="?AC=C001&amp;CT="&gt;Display All Events&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Arts%20Culture%20and%20Heritage"&gt;Arts, Culture &amp; Heritage&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Awards"&gt;Awards&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Business"&gt;Business Event&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Childrens%20Events"&gt;Children's Events&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Community%20Events"&gt;Community Events&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Environmental"&gt;Environmental&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Consultations%20and%20Forums"&gt;Consultations &amp; Forums&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Festivals"&gt;Festivals&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Food%20and%20Wine"&gt;Food &amp; Wine&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=International%20Events"&gt;International Events&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Markets%20and%20Fairs"&gt;Markets &amp; Fairs&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=National%20Events"&gt;National Events&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Special%20Events"&gt;Special Events&lt;/a&gt; &lt;a href="?AC=C001&amp;CT=Sport"&gt;Sport&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;script&gt; 
+function displayEvent(a) { 
+  for(i=0;i&lt;17;i++){
+   document.getElementById("Event_" + i).style.display="none"; 
+  }
+  document.getElementById("Event_" + a).style.display="block"; 
+
+} 
+&lt;/script&gt;
+
+
+&lt;script type="text/javascript"&gt;
+    
+
+function loadPopupBox(ShowEvent) {    // To Load the Popupbox
+	   var MHT = document.getElementById("Event_" + ShowEvent).innerHTML;
+	   $("#popContent").html(MHT);
+            $('#popup_box').fadeIn("slow");                   
+        } 
+
+        $('#popupBoxClose').click( function() {            
+            unloadPopupBox();
+        });
+
+       
+
+        function unloadPopupBox() {    // TO Unload the Popupbox
+            $("#popContent").html("&lt;p&gt;&lt;/p&gt;" );
+            $('#popup_box').fadeOut("slow");
+        }    
+
+&lt;/script&gt;  
+&lt;/div&gt;
+
+&lt;p class="ballarat_h2"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+     &lt;div id="custom-tab-0-tab2" class="tab-pane "&gt;&lt;br /&gt;
+ &lt;div style="display: block;"&gt;
+&lt;p class="ballarat_gbar"&gt;&amp;nbsp;&lt;span&gt;Annual Events&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+
+  &lt;ul class=NewsShort&gt;
+&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/anzac-day.aspx"&gt;&lt;img style="float:right;" alt="ANZAC Day Image" src="/media/1316988/expowmemorial.jpg"/&gt;ANZAC Day&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/anzac-day.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;Thousands of Australians pay their respects at the many ANZAC Day services held across the nation.  Ballarat offers a series of Commemorative Services.&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/school-holidays.aspx"&gt;&lt;img style="float:right;" alt="School Holidays Image" src="/media/1187025/default.jpg"/&gt;School Holidays&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/school-holidays.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;Get on board for School Holiday programs – get in fast to book your space&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/mars-cycling-australia-road-championships.aspx"&gt;&lt;img style="float:right;" alt="Mars Cycling Australia Road Championships Image" src="/media/2026619/cycle.jpg"/&gt;Mars Cycling Australia Road Championships&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/mars-cycling-australia-road-championships.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;The Road National Championships, which are held in January, feature three major disciplines – time trial, criterium and road race&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/australia-day.aspx"&gt;&lt;img style="float:right;" alt="Australia Day Image" src="/media/1316661/ausday.jpg"/&gt;Australia Day&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/australia-day.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;It’s un-Australian to be a Ballarat resident and not visit Lake Wendouree on Australia Day. &lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/begoniafest2012.aspx"&gt;&lt;img style="float:right;" alt="Begonia Festival Image" src="/media/1316816/gardens1.jpg"/&gt;Begonia Festival&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/begoniafest2012.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt; The Ballarat Begonia Festival is a significant and historic major event for Ballarat and has been held every year since 1953. &lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/white-ribbon-day.aspx"&gt;&lt;img style="float:right;" alt="White Ribbon Day Image" src="/media/1187025/default.jpg"/&gt;White Ribbon Day&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/white-ribbon-day.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;The White Ribbon campaign is the largest effort in the world of men working to end violence against women&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/summersundays.aspx"&gt;&lt;img style="float:right;" alt="Summer Sundays Image" src="/media/2027565/summer_sundays.jpg"/&gt;Summer Sundays&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/summersundays.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;Pack a picnic and enjoy summer in Ballarat’s Botanical Gardens at Council’s free music event.&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/harmonyfest.aspx"&gt;&lt;img style="float:right;" alt="Harmony Fest  Image" src="/media/1187025/default.jpg"/&gt;Harmony Fest &lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/harmonyfest.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;Harmony Fest 2014 is presented and produced by the City of Ballarat (CoB) and the Chinese Australian Cultural Society Ballarat&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/head-of-the-lake.aspx"&gt;&lt;img style="float:right;" alt="Head of The Lake Image" src="/media/1207744/parks1.jpg"/&gt;Head of The Lake&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/head-of-the-lake.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;The Head of the Lake is a feature event on the Ballarat schools rowing calendar &lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/christmas-in-ballarat.aspx"&gt;&lt;img style="float:right;" alt="Christmas in Ballarat Image" src="/media/2027555/xmas.jpg"/&gt;Christmas in Ballarat&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/christmas-in-ballarat.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;The festive season comes alive in Ballarat with spectacular Christmas topiary displays and colourful decorations along the Sturt Street gardens.&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/childrens-week.aspx"&gt;&lt;img style="float:right;" alt="Childrens Week Image" src="/media/1207616/childcare1.jpg"/&gt;Childrens Week&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/childrens-week.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;Childrens Week 2013 childrens week children kids week&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/heritage-weekend.aspx"&gt;&lt;img style="float:right;" alt="Heritage Weekend Image" src="/media/1187025/default.jpg"/&gt;Heritage Weekend&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/heritage-weekend.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;Ballarat Heritage Weekend provides an opportunity for our community to celebrate the city’s rich cultural heritage&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/meet-the-neighbourhood.aspx"&gt;&lt;img style="float:right;" alt="Meet the Neighbourhood Image" src="/media/1187025/default.jpg"/&gt;Meet the Neighbourhood&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/meet-the-neighbourhood.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/seniors-week.aspx"&gt;&lt;img style="float:right;" alt="Seniors Week Image" src="/media/1207488/seniors1.jpg"/&gt;Seniors Week&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/seniors-week.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class="grow MoreLinks"&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/backyard-tasters.aspx"&gt;&lt;img style="float:right;" alt="Backyard Tasters Image" src="/media/1187025/default.jpg"/&gt;Backyard Tasters&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a class="NewsHeading" href="http://www.ballarat.vic.gov.au/lae/events/backyard-tasters.aspx"&gt;&lt;/a&gt;&lt;div class="NewsDesc"&gt;Come and join 18 fabulous musical groups over 5 evenings at the 2014 Ballarat Backyard Tasters&lt;/div&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class="ballarat_h2"&gt;and there's more...&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;a href="http://www.artgalleryofballarat.com.au"&gt;&lt;img src="/media/1938425/frontgallery.jpg" width="308px" height="180px" alt="Front Gallery"/&gt;&lt;/a&gt;&lt;a href="http://www.hermaj.com/show"&gt;&lt;img src="/media/1522656/hermaj.jpg" width="308px" height="180px" alt="FrontHerMaj"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;div id="custom-tab-0-tab3" class="tab-pane "&gt;&lt;br /&gt;
+ &lt;p class="ballarat_gbar"&gt;&lt;strong&gt;Public holidays 2013-2014&lt;/strong&gt;&lt;/p&gt;
+&lt;table border="0" class="table table-striped"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;th align="left"&gt;Holiday&lt;/th&gt;&lt;th class="h3_light_blue" align="left"&gt;2013&lt;/th&gt;&lt;th align="left"&gt;2014&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;New Year's Day&lt;/th&gt;
+&lt;td id="_td1_1"&gt;Tuesday 1 January&lt;/td&gt;
+&lt;td id="_td1_2"&gt;Wednesday 1 January&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;
+&lt;p&gt;Australia Day&lt;/p&gt;
+&lt;/th&gt;
+&lt;td&gt;Monday 28 January&lt;br /&gt;*substitute for Sat 26 January&lt;/td&gt;
+&lt;td&gt;Monday 27 January&lt;br /&gt;*substitute for Sun 26 January&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;
+&lt;p&gt;Labour Day&amp;nbsp;&lt;/p&gt;
+&lt;/th&gt;
+&lt;td&gt;Monday 11 March&lt;/td&gt;
+&lt;td&gt;Monday 10 March&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;
+&lt;p&gt;Good Friday&lt;/p&gt;
+&lt;/th&gt;
+&lt;td&gt;Friday 29 March&lt;/td&gt;
+&lt;td&gt;Friday 18 April&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;
+&lt;p&gt;Saturday&amp;nbsp;before&lt;br /&gt;Easter Sunday&lt;/p&gt;
+&lt;/th&gt;
+&lt;td&gt;Saturday 30 March&lt;/td&gt;
+&lt;td&gt;Saturday 19 April&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;
+&lt;p&gt;Easter Monday&lt;/p&gt;
+&lt;/th&gt;
+&lt;td&gt;Monday 1 April&lt;/td&gt;
+&lt;td&gt;Monday 21 April&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;
+&lt;p&gt;ANZAC Day&lt;/p&gt;
+&lt;/th&gt;
+&lt;td&gt;
+&lt;p&gt;Thursday 25 April&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;Friday 25 April&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;
+&lt;p&gt;Queen's Birthday&lt;/p&gt;
+&lt;/th&gt;
+&lt;td&gt;Monday 10 June&lt;/td&gt;
+&lt;td&gt;Monday 9 June&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;
+&lt;p&gt;Ballarat Show&lt;br /&gt;(in lieu of Melbourne Cup)&amp;nbsp;&lt;/p&gt;
+&lt;/th&gt;
+&lt;td&gt;Friday 8 November&lt;/td&gt;
+&lt;td&gt;TBA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;
+&lt;p&gt;Christmas Day&lt;/p&gt;
+&lt;/th&gt;
+&lt;td&gt;Wednesday 25 December&lt;/td&gt;
+&lt;td&gt;Thursday 25 December&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th align="left" scope="row"&gt;
+&lt;p&gt;Boxing Day&lt;/p&gt;
+&lt;/th&gt;
+&lt;td&gt;Thursday 26 December&lt;/td&gt;
+&lt;td&gt;Friday 26 December&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&amp;nbsp;All public holiday dates are accurate at the time of publishing, but may be subject to change.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;/div&gt;
+
+
+
+            
+            
+            
+            &lt;div class="clearfix"&gt;&lt;/div&gt;
+            &lt;!-- / TabMenu --&gt;
+            
+        
+            
+            
+        &lt;/div&gt;
+        &lt;!-- Middle Content --&gt;
+        &lt;/div&gt;
+&lt;!-- RSPEAK_STOP --&gt;  
+        &lt;!-- Scrollable --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+
+
+jQuery(document).ready(function() {
+    var gcx = '010702698916739979025:eslwlm3qo6g';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + gcx;
+    var ags = document.getElementsByTagName('script')[0];
+    ags.parentNode.insertBefore(gcse, ags); 
+   
+});
+
+
+ 
+&lt;/script&gt;    
+
+
+
+	&lt;script src='/scripts/COBMobile/loadanim.js' type='text/javascript'&gt;&lt;/script&gt;&lt;!-- Loading Animation --&gt;
+	&lt;script src='/scripts/COBMobile/main.js' type='text/javascript'&gt;&lt;/script&gt;&lt;!-- Main Styles --&gt;
+	
+
+   &lt;div id="popup_box" class="no-print"&gt;    &lt;!-- OUR PopupBox DIV--&gt;
+    &lt;div id="popContent"&gt;&lt;/div&gt;
+    &lt;a id="popupBoxClose"&gt;Close&lt;/a&gt;    
+&lt;/div&gt;
+
+&lt;div id="aFoot" class="no-print" &gt;
+    &lt;!-- Wrtapper --&gt;           
+  &lt;div class="DarkBlock" style="width:100%;"&gt;  
+    &lt;div class="PGTone" style="height:10px;"&gt;&lt;/div&gt;
+  &lt;div class="scrollable" &gt;  
+
+&lt;div class="col-md-4"&gt; 
+
+&lt;p&gt;Shortcuts &amp; Sites&lt;/p&gt;
+&lt;hr/&gt;
+
+ &lt;a href="/contact-us.aspx"&gt;&lt;img src="http://www.ballarat.vic.gov.au/media/1858423/email.png" alt="Contact Us Online"/&gt;&lt;/a&gt;
+&lt;a href="/pc/community-directory.aspx"&gt;&lt;img alt="Community Directory" src="http://www.ballarat.vic.gov.au/media/1858756/contacts.png"/&gt;&lt;/a&gt;
+ &lt;a href="/ac/permits-and-forms.aspx"&gt;&lt;img src="http://www.ballarat.vic.gov.au/media/1858843/forms.png" alt="Find Permits and Forms"/&gt;&lt;/a&gt;
+ &lt;a href="/haveyoursay"&gt;&lt;img src="http://www.ballarat.vic.gov.au/media/1858852/haveyoursay.png"  alt="Have Your Say On Current Projects"/&gt;&lt;/a&gt;
+ &lt;br&gt; &lt;br&gt;
+&lt;ul &gt;
+&lt;li&gt;&lt;a href="http://www.youthservicesballarat.com.au"&gt;Youth Services Ballarat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.businessballarat.com"&gt;Business Ballarat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.artgalleryofballarat.com.au/"&gt;Art Gallery of Ballarat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.hermaj.com"&gt;Her Majesty's Theatre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.centralhighlandslibraries.org.au/client/chls/?rm=CITY+OF+BALLAR1|||1|||0|||true"&gt;Central Highlands Libraries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ballarat.vic.gov.au/pc/access-for-all-abilities/accessibility.aspx"&gt;Accessibility on this website.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+
+ &lt;div class="col-md-4"&gt; 
+
+&lt;p&gt;Contact Us&lt;/p&gt;
+&lt;hr/&gt;
+
+&lt;a href="http://www.ballarat.vic.gov.au"&gt;&lt;img alt="City of Ballarat Home" style="float:left;" src="/media/1858588/cobround.png"/&gt;&lt;/a&gt;
+&lt;a href="/contact-us.aspx"&gt;Contact Customer Service&lt;/a&gt; &lt;br/&gt; P: +61 3 5320 5500.  &lt;br&gt;
+The Phoenix, 25 Armstrong Street &lt;br/&gt;Ballarat, 3350, Victoria.&lt;br&gt;
+&lt;hr/&gt;
+ 
+ Page last updated: Friday, June 27, 2014
+ &lt;br&gt; &amp;copy; City of Ballarat 2013 | &lt;a href="/disclaimer.aspx"&gt;Disclaimer&lt;/a&gt; | &lt;a href="/privacy.aspx"&gt;Privacy&lt;/a&gt;&lt;br&gt; &lt;br&gt; 
+&lt;a href="/geotagger.aspx?PGI=20739"&gt;&lt;img height="16px" width="16px" src="/media/2364201/addgeoicon.png"/&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+ &lt;div class="col-md-4" &gt; 
+
+&lt;p&gt;Follow Us &lt;/p&gt;
+&lt;hr/&gt;
+&lt;div style="float:right;"&gt;
+&lt;a href="http://www.youtube.com/user/TheCityofBallarat" onclick="_gaq.push(['_trackEvent', 'Social', 'Click', 'YouTube');" data-toggle="tooltip" data-placement="left" title="Visit Us On YouTube!"&gt;&lt;img  src="http://www.ballarat.vic.gov.au/media/1858414/youtube.png" alt="Visit our YouTube Channel"/&gt;&lt;/a&gt;
+ &lt;a href="http://www.facebook.com/ballaratcity" onclick="_gaq.push(['_trackEvent', 'Social', 'Click', 'Facebook');"&gt;&lt;img  src="http://www.ballarat.vic.gov.au/media/1858405/pinterest.png" alt="Visit Us On Pinterest"/&gt;&lt;/a&gt;
+ &lt;a href="http://www.instagram.com/cityofballarat" onclick="_gaq.push(['_trackEvent', 'Social', 'Click', 'Instagram');"&gt;&lt;img  src="http://www.ballarat.vic.gov.au/media/1858396/instagram.png" alt="Snaps of Our City On Instagram"/&gt;&lt;/a&gt;
+ &lt;a href="https://twitter.com/cityofballarat" onclick="_gaq.push(['_trackEvent', 'Social', 'Click', 'Twitter');"&gt;&lt;img  src="http://www.ballarat.vic.gov.au/media/1858387/twitter.png" alt="Follow Us On Twitter"/&gt;&lt;/a&gt;
+ &lt;a href="http://www.facebook.com/ballaratcity" onclick="_gaq.push(['_trackEvent', 'Social', 'Click', 'Facebook');"&gt;&lt;img  src="http://www.ballarat.vic.gov.au/media/1858378/fb.png" alt="Like Our Facebook Page and Stay Updated"/&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;br/&gt;
+ &lt;br&gt; &lt;br&gt;
+&lt;div id="MicrosoftTranslatorWidget" style="width: 310px; float:right; min-height: 83px; border-width:0px; border-color: gray; background-color: black;"&gt;&lt;noscript&gt;&lt;a href="http://www.microsofttranslator.com/bv.aspx?a=http%3a%2f%2fwww.ballarat.vic.gov.au%2f"&gt;Translate this page&lt;/a&gt;&lt;br /&gt;Powered by &lt;a href="http://www.microsofttranslator.com"&gt;Microsoft® Translator&lt;/a&gt;&lt;/noscript&gt;&lt;/div&gt; &lt;script type="text/javascript"&gt; /* &lt;![CDATA[ */ setTimeout(function() { var s = document.createElement("script"); s.type = "text/javascript"; s.charset = "UTF-8"; s.src = ((location &amp;&amp; location.href &amp;&amp; location.href.indexOf('https') == 0) ? "https://ssl.microsofttranslator.com" : "http://www.microsofttranslator.com" ) + "/ajax/v2/widget.aspx?mode=manual&amp;from=en&amp;layout=ts"; var p = document.getElementsByTagName('head')[0] || document.documentElement; p.insertBefore(s, p.firstChild); }, 0); /* ]]&gt; */ &lt;/script&gt; 
+
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+
+   &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;script type="text/javascript"&gt;
+function CommonPopup(HT,IsFile) {    // To Load the Popupbox
+        var MHT = "&lt;center&gt;Loading...&lt;/center&gt;";
+	$("#popContent").html(MHT);
+        $('#popup_box').fadeIn("slow");              
+        if(IsFile){
+	$.get(HT)
+	     .success(function(data) {
+	      $("#popContent").html(data);
+	 });
+	 }else{
+	  MHT=HT;
+	  $("#popContent").html(MHT);
+	}
+        } 
+
+        $('#popupBoxClose').click( function() {            
+            unloadCommonPopup();
+        }); 
+
+        function unloadCommonPopup() {    // TO Unload the Popupbox
+            $("#popContent").html("&lt;p&gt;&lt;/p&gt;" );
+            $('#popup_box').fadeOut("slow");
+        }    
+
+
+function HelpPopup(HT,IsFile) {    // To Load the Popupbox
+        var MHT = "&lt;center&gt;Loading...&lt;/center&gt;";
+	$("#HelperContent").html(MHT);
+        $('#Helper').fadeIn("slow");                   
+        if(IsFile){
+	$.get(HT)
+	     .success(function(data) {
+	      $("#HelperContent").html(data);
+	 });
+	 }else{
+	  MHT=HT;
+	  $("#HelperContent").html(MHT);
+	}
+        } 
+
+        $('#HelperContent').click( function() {            
+            unloadHelperPopup();
+        }); 
+
+        function unloadHelperPopup() {    // TO Unload the Popupbox
+            $("#HelperContent").html("&lt;p&gt;&lt;/p&gt;" );
+            $('#Helper').fadeOut("slow");
+        }  
+
+&lt;/script&gt;   
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+</root>

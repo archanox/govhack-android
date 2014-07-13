@@ -1,0 +1,6 @@
+/Users/victorramanauskas/Projects/cityAppConsole/cityAppConsole/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/victorramanauskas/Projects/cityAppConsole/cityAppConsole/bin/Debug/cityAppConsole.exe.mdb
+/Users/victorramanauskas/Projects/cityAppConsole/cityAppConsole/bin/Debug/cityAppConsole.exe
+/Users/victorramanauskas/Projects/cityAppConsole/cityAppConsole/obj/x86/Debug/cityAppConsole.exe
+/Users/victorramanauskas/Projects/cityAppConsole/cityAppConsole/obj/x86/Debug/cityAppConsole.exe.mdb
+/Users/victorramanauskas/Projects/cityAppConsole/cityAppConsole/bin/Debug/Newtonsoft.Json.dll

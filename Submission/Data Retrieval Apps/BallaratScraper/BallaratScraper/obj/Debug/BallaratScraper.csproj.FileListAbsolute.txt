@@ -1,0 +1,12 @@
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\bin\Debug\BallaratScraper.exe.config
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\bin\Debug\BallaratScraper.exe
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\bin\Debug\BallaratScraper.pdb
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\obj\Debug\BallaratScraper.csprojResolveAssemblyReference.cache
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\obj\Debug\BallaratScraper.exe
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\obj\Debug\BallaratScraper.pdb
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\bin\Debug\CsQuery.dll
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\bin\Debug\CsQuery.xml
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\obj\Debug\BallaratScraper.Properties.Resources.resources
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\obj\Debug\BallaratScraper.csproj.GenerateResource.Cache
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\bin\Debug\Newtonsoft.Json.dll
+c:\users\pierce\documents\visual studio 2013\Projects\BallaratScraper\BallaratScraper\bin\Debug\Newtonsoft.Json.xml
