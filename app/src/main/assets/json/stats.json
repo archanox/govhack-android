@@ -1,212 +1,238 @@
 [
     {
-      "suburb": "Ballarat Central",
-      "population": 5703,
-      "populationDensity": 1582.4,
-      "area": 3.6,
-      "landUses": [
-        {
-          "type": "Commercial",
-          "value": 22.8
-        },
-        {
-          "type": "Industrial",
-          "value": 1.2
-        },
-        {
-          "type": "Residential",
-          "value": 58.9
-        },
-        {
-          "type": "Rural",
-          "value": 0.0
-        },
-        {
-          "type": "Other",
-          "value": 17.1
-        }
-      ],
-      "populations": [
-        {
-          "year": 2012,
-          "percentages": [
+        "suburb": "Ballarat Central",
+        "population": 5703,
+        "populationDensity": 1582.4,
+        "area": 3.6,
+        "description": "Ballarat Central (known as the Central Business Area by the City of Ballarat and sometimes simply as \"Ballarat\") is the central locality of Greater Ballarat in Victoria, Australia. It is the administrative headquarters for the City of Ballarat as well as the Ballarat Base Hospital and health services and home to the city's major religious institutions and a major retail, commercial and inner city residential area.
+
+It is the third oldest settlement in Greater Ballarat (after the gold rush settlements of Ballarat East and Golden Point). Planned as a permanent settlement shortly following the initial gold rush, it was formerly known as Ballaarat West or the new township of Ballaarat.
+
+The boundaries are Lexton, Drummond, Talbot and Pleasant Street to the west; Sebastopol, Hill, Hummfray and Steinford Street to the south; Peel Street to the east and Serviceton Railway Line to the north.
+
+Ballarat Central is important historically to the development of the city as well as for its Victorian era architecture and much of its area is covered by Heritage Overlays.",
+        "landUses": [
             {
-              "age": "0-4",
-              "value": 6.3
+                "type": "Commercial",
+                "value": 22.8
             },
             {
-              "age": "5-9",
-              "value": 5.3
+                "type": "Industrial",
+                "value": 1.2
             },
             {
-              "age": "10-14",
-              "value": 5.2
+                "type": "Residential",
+                "value": 58.9
             },
             {
-              "age": "15-19",
-              "value": 6.5
+                "type": "Rural",
+                "value": 0.0
             },
             {
-              "age": "20-24",
-              "value": 10.0
-            },
-            {
-              "age": "25-44",
-              "value": 28.3
-            },
-            {
-              "age": "45-64",
-              "value": 24.4
-            },
-            {
-              "age": "65-69",
-              "value": 3.8
-            },
-            {
-              "age": "70-74",
-              "value": 3.7
-            },
-            {
-              "age": "75-79",
-              "value": 2.5
-            },
-            {
-              "age": "80-84",
-              "value": 2.1
-            },
-            {
-              "age": "85+",
-              "value": 1.9
+                "type": "Other",
+                "value": 17.1
             }
-          ]
+        ],
+        "populations": [
+            {
+                "year": 2012,
+                "percentages": [
+                    {
+                        "age": "0-4",
+                        "value": 6.3
+                    },
+                    {
+                        "age": "5-9",
+                        "value": 5.3
+                    },
+                    {
+                        "age": "10-14",
+                        "value": 5.2
+                    },
+                    {
+                        "age": "15-19",
+                        "value": 6.5
+                    },
+                    {
+                        "age": "20-24",
+                        "value": 10.0
+                    },
+                    {
+                        "age": "25-44",
+                        "value": 28.3
+                    },
+                    {
+                        "age": "45-64",
+                        "value": 24.4
+                    },
+                    {
+                        "age": "65-69",
+                        "value": 3.8
+                    },
+                    {
+                        "age": "70-74",
+                        "value": 3.7
+                    },
+                    {
+                        "age": "75-79",
+                        "value": 2.5
+                    },
+                    {
+                        "age": "80-84",
+                        "value": 2.1
+                    },
+                    {
+                        "age": "85+",
+                        "value": 1.9
+                    }
+                ]
+            }
+        ],
+        "keyStats": [
+            {
+                "name": "Number of Households",
+                "value": "2353"
+            },
+            {
+                "name": "Unemployed",
+                "value": "6.6%"
+            },
+            {
+                "name": "Top Industry",
+                "value": "Health Care and Social Assistance"
+            },
+            {
+                "name": "Born Overseas",
+                "value": "11%"
+            },
+            {
+                "name": "Born in non-English speaking country",
+                "value": "6.2%"
+            }
+        ],
+        "map": {
+          "lat": -37.5619119,
+          "lng": 143.8518453,
+          "zoom": 12,
+          "viewLat": -37.5591989,
+          "viewLng": 143.8507295
         }
-      ],
-      "keyStats": [
-        {
-          "name": "Number of Households",
-          "value": "2353"
-        },
-        {
-          "name": "Unemployed",
-          "value": "6.6%"
-        },
-        {
-          "name": "Top Industry",
-          "value": "Health Care and Social Assistance"
-        },
-        {
-          "name": "Born Overseas",
-          "value": "11%"
-        },
-        {
-          "name": "Born in non-English speaking country",
-          "value": "6.2%"
-        }
-      ]
     },
     {
-      "suburb": "Delacombe",
-      "population": 5172,
-      "populationDensity": 541.9,
-      "area": 9.5,
-      "landUses": [
-        {
-          "type": "Commercial",
-          "value": 0.0
-        },
-        {
-          "type": "Industrial",
-          "value": 23.7
-        },
-        {
-          "type": "Residential",
-          "value": 34.3
-        },
-        {
-          "type": "Rural",
-          "value": 0.0
-        },
-        {
-          "type": "Other",
-          "value": 41.9
-        }
-      ],
-      "populations": [
-        {
-          "year": 2012,
-          "percentages": [
+        "suburb": "Delacombe",
+        "population": 5172,
+        "populationDensity": 541.9,
+        "area": 9.5,
+        "description":"Delacombe forms a large part of the Ballarat West Growth Area where suburban development is encouraged by the City of Ballarat and State Government of Victoria. Much of the city's planned subdivision for new housing estates is happening in Greenfield land in and around the suburb and it is predicted to be home to over 12,000 residents in 2030.
+
+The suburb is built upon the floodplain of the Winter Creek. Its tributaries are stormwater drains, including the Banyule.
+
+It is one of the few Ballarat suburbs with its own shopping centres and a future activity centre for the suburb is planned by the City of Ballarat.",
+        "landUses": [
             {
-              "age": "0-4",
-              "value": 7.2
+                "type": "Commercial",
+                "value": 0.0
             },
             {
-              "age": "5-9",
-              "value": 6.9
+                "type": "Industrial",
+                "value": 23.7
             },
             {
-              "age": "10-14",
-              "value": 7.5
+                "type": "Residential",
+                "value": 34.3
             },
             {
-              "age": "15-19",
-              "value": 7.7
+                "type": "Rural",
+                "value": 0.0
             },
             {
-              "age": "20-24",
-              "value": 7.6
-            },
-            {
-              "age": "25-44",
-              "value": 26.6
-            },
-            {
-              "age": "45-64",
-              "value": 23.8
-            },
-            {
-              "age": "65-69",
-              "value": 4.1
-            },
-            {
-              "age": "70-74",
-              "value": 3.0
-            },
-            {
-              "age": "75-79",
-              "value": 2.7
-            },
-            {
-              "age": "80-84",
-              "value": 1.6
-            },
-            {
-              "age": "85+",
-              "value": 1.3
+                "type": "Other",
+                "value": 41.9
             }
-          ]
+        ],
+        "populations": [
+            {
+                "year": 2012,
+                "percentages": [
+                    {
+                        "age": "0-4",
+                        "value": 7.2
+                    },
+                    {
+                        "age": "5-9",
+                        "value": 6.9
+                    },
+                    {
+                        "age": "10-14",
+                        "value": 7.5
+                    },
+                    {
+                        "age": "15-19",
+                        "value": 7.7
+                    },
+                    {
+                        "age": "20-24",
+                        "value": 7.6
+                    },
+                    {
+                        "age": "25-44",
+                        "value": 26.6
+                    },
+                    {
+                        "age": "45-64",
+                        "value": 23.8
+                    },
+                    {
+                        "age": "65-69",
+                        "value": 4.1
+                    },
+                    {
+                        "age": "70-74",
+                        "value": 3.0
+                    },
+                    {
+                        "age": "75-79",
+                        "value": 2.7
+                    },
+                    {
+                        "age": "80-84",
+                        "value": 1.6
+                    },
+                    {
+                        "age": "85+",
+                        "value": 1.3
+                    }
+                ]
+            }
+        ],
+        "keyStats": [
+            {
+                "name": "Number of Households",
+                "value": "1844"
+            },
+            {
+                "name": "Unemployed",
+                "value": "4.8%"
+            },
+            {
+                "name": "Top Industry",
+                "value": "Retail Trade"
+            },
+            {
+                "name": "Born Overseas",
+                "value": "7.5%"
+            },
+            {
+                "name": "Born in non-English speaking country",
+                "value": "3.9%"
+            }
+        ],
+        "map": {
+          "lat": -37.5851882,
+          "lng": 143.8181424,
+          "zoom": 12,
+          "viewLat": -37.5582489,
+          "viewLng": 143.8514447
         }
-      ],
-      "keyStats": [
-        {
-          "name": "Number of Households",
-          "value": "1844"
-        },
-        {
-          "name": "Unemployed",
-          "value": "4.8%"
-        },
-        {
-          "name": "Top Industry",
-          "value": "Retail Trade"
-        },
-        {
-          "name": "Born Overseas",
-          "value": "7.5%"
-        },
-        {
-          "name": "Born in non-English speaking country",
-          "value": "3.9%"
-        }
-      ]
     }
 ]
