@@ -43,7 +43,7 @@ public class Utils {
 
     public static ArrayList<EventItem> loadEvents(Context context) {
         try {
-            InputStream raw = context.getAssets().open("json/events.json");
+            InputStream raw = context.getAssets().open("json/events2.json");
             Reader reader = new BufferedReader(new InputStreamReader(raw, "UTF8"));
 
             Gson gson = new Gson();
