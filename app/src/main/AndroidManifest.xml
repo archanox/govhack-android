@@ -88,6 +88,15 @@
         <provider
             android:name=".db.BallaratContentProvider"
             android:authorities="au.gov.vic.ballarat.ballarat" />
+
+        <activity
+            android:name=".DirectoryCategoryActivity"
+            android:label="@string/title_activity_directory_category"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="au.gov.vic.ballarat.ballarat.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

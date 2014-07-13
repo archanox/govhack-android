@@ -1,6 +1,7 @@
 package au.gov.vic.ballarat.ballarat;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
@@ -18,8 +19,6 @@ import au.gov.vic.ballarat.ballarat.dummy.DummyContent;
 
 public class DirectoryListFragment extends ListFragment implements LoaderManager.LoaderCallbacks<Cursor> {
     private static final String ARG_SECTION_NUMBER = "section_number";
-
-    private OnFragmentInteractionListener mListener;
     private SimpleCursorAdapter mAdapter;
 
     /**
@@ -49,12 +48,6 @@ public class DirectoryListFragment extends ListFragment implements LoaderManager
         super.onAttach(activity);
         ((MainActivity) activity).onSectionAttached(
                 getArguments().getInt(ARG_SECTION_NUMBER));
-    }
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
-        mListener = null;
     }
 
     private void fillData() {
@@ -91,11 +84,12 @@ public class DirectoryListFragment extends ListFragment implements LoaderManager
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
 
-        if (null != mListener) {
-            // Notify the active callbacks interface (the activity, if the
-            // fragment is attached to one) that an item has been selected.
-            mListener.onFragmentInteraction(DummyContent.ITEMS.get(position).id);
-        }
+        Cursor c = ((SimpleCursorAdapter)l.getAdapter()).getCursor();
+        c.moveToPosition(position);
+
+        Intent intent = new Intent(getActivity(), DirectoryCategoryActivity.class);
+        intent.putExtra("category_name", c.getString(1));
+        startActivity(intent);
     }
 
     /**

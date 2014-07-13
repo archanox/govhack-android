@@ -22,6 +22,9 @@ public class DirectoryItem implements Serializable {
     private String fax;
 
     public String getCategoryName() {
+        if (categoryName.length() == 0) {
+            return "Uncategorised";
+        }
         return categoryName;
     }
 
