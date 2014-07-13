@@ -6,13 +6,16 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <permission android:name="au.gov.vic.ballarat.ballarat.permission.C2D_MESSAGE"
+
+    <permission
+        android:name="au.gov.vic.ballarat.ballarat.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
+
     <uses-permission android:name="au.gov.vic.ballarat.ballarat.permission.C2D_MESSAGE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -20,19 +23,23 @@
         android:label="@string/app_name"
         android:logo="@drawable/ic_logo"
         android:theme="@style/Theme.Govhack" >
-        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCIJb0q0X_zRJ0sgWxlLpOvEjV8hsvvp4g"/>
+            android:value="AIzaSyCIJb0q0X_zRJ0sgWxlLpOvEjV8hsvvp4g" />
 
         <receiver
             android:name=".GcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
                 <category android:name="au.gov.vic.ballarat.ballarat" />
             </intent-filter>
         </receiver>
+
         <service android:name=".GcmIntentService" />
 
         <activity
@@ -69,6 +76,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="au.gov.vic.ballarat.ballarat.MainActivity" />
         </activity>
+        <activity
+            android:name=".WebActivity"
+            android:label="@string/title_activity_web"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="au.gov.vic.ballarat.ballarat.MainActivity" />
+        </activity>
+
+        <provider
+            android:name=".db.BallaratContentProvider"
+            android:authorities="au.gov.vic.ballarat.ballarat" />
     </application>
 
 </manifest>

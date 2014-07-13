@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.ListFragment;
+import android.support.v4.app.ListFragment;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,7 +23,6 @@ public class EventListFragment extends ListFragment {
 
     private ArrayList<EventItem> mEventList;
 
-    // TODO: Rename and change types of parameters
     public static EventListFragment newInstance(int sectionNumber) {
         EventListFragment fragment = new EventListFragment();
         Bundle args = new Bundle();

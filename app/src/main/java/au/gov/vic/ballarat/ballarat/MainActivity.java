@@ -1,36 +1,42 @@
 package au.gov.vic.ballarat.ballarat;
 
-import android.app.Activity;
 
 import android.app.ActionBar;
-import android.app.Fragment;
-import android.app.FragmentManager;
+import android.app.Activity;
 import android.content.Context;
+import android.content.OperationApplicationException;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
+import android.os.RemoteException;
+import android.preference.PreferenceManager;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
+import android.support.v4.app.FragmentManager;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import java.io.IOException;
+import java.util.ArrayList;
+
+import au.gov.vic.ballarat.ballarat.db.BallaratContentProviderBatchClient;
+import au.gov.vic.ballarat.ballarat.db.BallaratContentProviderClient;
+import au.gov.vic.ballarat.ballarat.pojo.DirectoryItem;
 
 
-public class MainActivity extends Activity
+public class MainActivity extends FragmentActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
     /**
@@ -60,6 +66,17 @@ public class MainActivity extends Activity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Debugging
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        if(!prefs.getBoolean("firstTime", false)) {
+            wipeDB();
+            importDB();
+            // run your one time code
+            SharedPreferences.Editor editor = prefs.edit();
+            editor.putBoolean("firstTime", true);
+            editor.commit();
+        }
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -102,7 +119,7 @@ public class MainActivity extends Activity
                 fragment = PlaceholderFragment.newInstance(position + 1);
                 break;
             case 3:
-                fragment = PlaceholderFragment.newInstance(position + 1);
+                fragment = DirectoryListFragment.newInstance(position + 1);
                 break;
             case 4:
                 fragment = EventListFragment.newInstance(position + 1);
@@ -114,7 +131,7 @@ public class MainActivity extends Activity
                 fragment = NewsFragment.newInstance(position + 1);
                 break;
         }
-        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.container, fragment)
                 .commit();
@@ -311,5 +328,61 @@ public class MainActivity extends Activity
         editor.putString(PROPERTY_REG_ID, regId);
         editor.putInt(PROPERTY_APP_VERSION, appVersion);
         editor.commit();
+    }
+
+    private void wipeDB() {
+        BallaratContentProviderClient.removeAllDirectory(this);
+    }
+
+    private void importDB() {
+        new AsyncTask() {
+
+            @Override
+            protected Object doInBackground(Object[] params) {
+                ArrayList<DirectoryItem> directoryItems = Utils.loadDirectory(getApplicationContext());
+
+                BallaratContentProviderBatchClient batch = new BallaratContentProviderBatchClient();
+                batch.start();
+
+                for (DirectoryItem d: directoryItems) {
+                    batch.addDirectory(
+                            d.getCategoryName(),
+                            d.getSubCategoryName(),
+                            d.getServiceName(),
+                            d.getDescription(),
+                            d.getActivities(),
+                            d.getContactName(),
+                            d.getOpeningHours(),
+                            d.getMailingAddress(),
+                            d.getStreetAddress(),
+                            d.getBusinessPhone(),
+                            d.getMobilePhone(),
+                            d.getEmail(),
+                            d.getWebsite(),
+                            d.getFax()
+                    );
+                }
+                try {
+                    batch.commit(getApplicationContext());
+                } catch (OperationApplicationException e) {
+                    e.printStackTrace();
+                } catch (RemoteException e) {
+                    e.printStackTrace();
+                }
+                return null;
+            }
+
+            @Override
+            protected void onPostExecute(Object o) {
+                super.onPostExecute(o);
+
+                Context context = getApplicationContext();
+                CharSequence text = "Sync Completed";
+                int duration = Toast.LENGTH_SHORT;
+
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
+            }
+        }.execute(null, null, null);
     }
 }

@@ -16,6 +16,7 @@ import java.io.Reader;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
+import au.gov.vic.ballarat.ballarat.pojo.DirectoryItem;
 import au.gov.vic.ballarat.ballarat.pojo.NeighbourhoodItem;
 import au.gov.vic.ballarat.ballarat.pojo.EventItem;
 import au.gov.vic.ballarat.ballarat.pojo.NewsItem;
@@ -70,6 +71,22 @@ public class Utils {
             e.printStackTrace();
         }
         return new ArrayList<NeighbourhoodItem>();
+    }
+
+    public static ArrayList<DirectoryItem> loadDirectory(Context context) {
+        try {
+            InputStream raw = context.getAssets().open("json/services.json");
+            Reader reader = new BufferedReader(new InputStreamReader(raw, "UTF8"));
+
+            Gson gson = new Gson();
+            Type listType = new TypeToken<ArrayList<DirectoryItem>>() {}.getType();
+
+            return gson.fromJson(reader, listType);
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+        return new ArrayList<DirectoryItem>();
     }
 
     public static Bitmap getBitmapFromAsset(Context context, String strName)
