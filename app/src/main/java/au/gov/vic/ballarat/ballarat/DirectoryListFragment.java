@@ -88,7 +88,7 @@ public class DirectoryListFragment extends ListFragment implements LoaderManager
         c.moveToPosition(position);
 
         Intent intent = new Intent(getActivity(), DirectoryCategoryActivity.class);
-        intent.putExtra("category_name", c.getString(1));
+        intent.putExtra("categoryName", c.getString(1));
         startActivity(intent);
     }
 

@@ -18,6 +18,11 @@ public final class BallaratContentProviderClient {
     return cr.query(BallaratContentProvider.DIRECTORY_URI, null, BallaratDB.DIRECTORY__ID_COLUMN + "=?", new String[]{String.valueOf(_id)},null);
   }
 
+    public static Cursor getDirectoryWith_categoryName(Context c, String categoryName) {
+        ContentResolver cr = c.getContentResolver();
+        return cr.query(BallaratContentProvider.DIRECTORY_URI, null, BallaratDB.DIRECTORY_CATEGORYNAME_COLUMN + "=?", new String[]{categoryName},null);
+    }
+
   public static Uri addDirectory(Context c, String categoryName, String subCategoryName, String serviceName, String description, String activities, String contactName, String openingHours, String mailingAddress, String streetAddress, String businessPhone, String mobilePhone, String email, String website, String fax) {
     ContentValues contentValues = new ContentValues();
     contentValues.put(BallaratDB.DIRECTORY_CATEGORYNAME_COLUMN,categoryName);
