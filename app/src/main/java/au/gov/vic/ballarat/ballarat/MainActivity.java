@@ -4,6 +4,7 @@ package au.gov.vic.ballarat.ballarat;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.OperationApplicationException;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
@@ -187,6 +188,12 @@ public class MainActivity extends FragmentActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        if (id == R.id.action_report) {
+            Intent intent = new Intent(this, WebActivity.class);
+            intent.putExtra("url", "https://eservices.ballarat.vic.gov.au/mobile/index.html");
+            intent.putExtra("title", "myRequests Mobile");
+            startActivity(intent);
+        }
         if (id == R.id.action_settings) {
             return true;
         }

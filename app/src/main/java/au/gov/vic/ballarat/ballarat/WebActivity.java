@@ -1,19 +1,33 @@
 package au.gov.vic.ballarat.ballarat;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+
+import java.net.URL;
+
 import au.gov.vic.ballarat.ballarat.R;
 
 public class WebActivity extends Activity {
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
-    }
 
+        setTitle(getIntent().getStringExtra("title"));
+        String url = getIntent().getStringExtra("url");
+        WebView webView = (WebView)findViewById(R.id.webView);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setDomStorageEnabled(true);
+        webView.getSettings().setGeolocationEnabled(true);
+        webView.loadUrl(url);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
