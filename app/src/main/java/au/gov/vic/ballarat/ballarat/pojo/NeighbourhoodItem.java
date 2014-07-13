@@ -9,10 +9,13 @@ import java.util.ArrayList;
 public class NeighbourhoodItem implements Serializable {
     private String suburb;
     private float populationDensity;
+    private int population;
     private float area;
+    private String description;
     private ArrayList<LandUse> landUses = new ArrayList<LandUse>();
     private ArrayList<Population> populations = new ArrayList<Population>();
     private ArrayList<KeyStat> keyStats = new ArrayList<KeyStat>();
+    private Map map;
 
     public String getSuburb() {
         return suburb;
@@ -60,6 +63,18 @@ public class NeighbourhoodItem implements Serializable {
 
     public void setKeyStats(ArrayList<KeyStat> keyStats) {
         this.keyStats = keyStats;
+    }
+
+    public Map getMap() {
+        return map;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getPopulation() {
+        return population;
     }
 
     private class LandUse implements Serializable {
@@ -143,6 +158,34 @@ public class NeighbourhoodItem implements Serializable {
 
         public void setValue(String value) {
             this.value = value;
+        }
+    }
+
+    public class Map implements Serializable {
+        private float lat;
+        private float lng;
+        private int zoom;
+        private float viewLat;
+        private float viewLng;
+
+        public float getLat() {
+            return lat;
+        }
+
+        public float getLng() {
+            return lng;
+        }
+
+        public int getZoom() {
+            return zoom;
+        }
+
+        public float getViewLat() {
+            return viewLat;
+        }
+
+        public float getViewLng() {
+            return viewLng;
         }
     }
 }
