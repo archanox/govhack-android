@@ -17,7 +17,7 @@ public class DirectoryCategoryActivity extends Activity {
     }
 
     private void displayListView() {
-        
+
     }
 
     @Override
